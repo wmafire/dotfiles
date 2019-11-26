@@ -1,0 +1,4 @@
+compton &
+fcitx -d &
+ss-qt5 &
+enpass &
