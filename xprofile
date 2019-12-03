@@ -1,4 +1,1 @@
-compton &
-fcitx -d &
-ss-qt5 &
-enpass &
+~/.config/autorun.sh &

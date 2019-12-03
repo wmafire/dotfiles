@@ -1,6 +1,5 @@
 #!/bin/bash
 
-PROJECT_DIR=$(dirname "$0")
 PROJECT_DIR=$(cd "$(dirname "$0")";pwd)
 
 echo "Configuration localtion: $PROJECT_DIR"
@@ -12,8 +11,8 @@ echo "Configuration localtion: $PROJECT_DIR"
 # ██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗
 # ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
 
-rm ~/.xinitrc
-ln -s $PROJECT_DIR/xinitrc ~/.xinitrc
+# rm ~/.xinitrc
+# ln -s $PROJECT_DIR/xinitrc ~/.xinitrc
 
 rm ~/.xprofile
 ln -s $PROJECT_DIR/xprofile ~/.xprofile
@@ -41,14 +40,21 @@ ln -s $PROJECT_DIR/emacs.d ~/.emacs.d
 # ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝
 #  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝
 
+rm ~/.config/ss.json
+ln -s $PROJECT_DIR/hk.json ~/.config/ss.json
+
+rm ~/.config/autorun.sh
+ln -s $PROJECT_DIR/autorun.sh ~/.config/autorun.sh
+
+
 rm -rf ~/.config/awesome
 ln -s $PROJECT_DIR/awesome ~/.config/awesome
 
 rm ~/.config/compton.conf
-ln -s $PROJECT_DIR/compton.conf ~/.config/compton.conf
+ln -s $PROJECT_DIR/compton.conf ~/.config/compton.blur.conf
 
-rm ~/.config/picom.conf
-ln -s $PROJECT_DIR/picom.conf ~/.config/picom.conf
+# rm ~/.config/picom.conf
+# ln -s $PROJECT_DIR/picom.conf ~/.config/picom.conf
 
 rm -rf ~/.config/alacritty
 ln -s $PROJECT_DIR/alacritty ~/.config/alacritty

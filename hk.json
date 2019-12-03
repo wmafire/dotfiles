@@ -1,0 +1,22 @@
+{
+    "server":[
+	    "sh.hkt.6.fastnode.top",
+	    "sh.hk.t.fastnode.top",
+	    "sh.hk.tran.2.fastnode.top",
+	    "sh.hk.tran.3.fastnode.top",
+	    "sh.hkt.4.fastnode.top",
+	    "sh.hkt.5.fastnode.top",
+	    "sh.hkt.7.fastnode.top",
+	    "sh.hk.t.8.fastnode.top",
+	    "sh.hk.t.9.fastnode.top",
+	    "sh.hk.t.10.fastnode.top"],
+    "server_port":10817,
+    "local_address": "127.0.0.1",
+    "local_port":1080,
+    "password":"Chinese7",
+    "timeout":300,
+    "method":"RC4-MD5",
+    "fast_open": false,
+    "workers": 1,
+    "prefer_ipv6": false
+}
