@@ -42,3 +42,4 @@ run msm_notifier
 fcitx -d &
 enpass &
 sslocal -c ~/.config/ss.json &
+nutstore &

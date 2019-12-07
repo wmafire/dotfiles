@@ -1,6 +1,8 @@
 [submodule "awesome"]
 	path = awesome
 	url = git@github.com:defaultwalter/awesome.git
+	branch = master
 [submodule "emacs.d"]
 	path = emacs.d
 	url = git@github.com:defaultwalter/emacs.d.git
+	branch = master
