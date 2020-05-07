@@ -8,7 +8,7 @@
     selected-normal-foreground:  rgba ( 249, 249, 249, 100 % );
     foreground:                  rgba ( 196, 203, 212, 100 % );
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 64, 69, 82, 59 % );
+    alternate-normal-background: @background;
     red:                         rgba ( 220, 50, 47, 100 % );
     selected-urgent-foreground:  rgba ( 249, 249, 249, 100 % );
     blue:                        rgba ( 38, 139, 210, 100 % );
@@ -18,11 +18,11 @@
     lightbg:                     rgba ( 238, 232, 213, 100 % );
     selected-active-foreground:  rgba ( 249, 249, 249, 100 % );
     alternate-active-background: rgba ( 75, 81, 96, 89 % );
-    background:                  rgba ( 45, 48, 59, 55 % );
+    background:                  rgba ( 51, 56, 66, 90 % );
     alternate-normal-foreground: @foreground;
     normal-background:           @background;
     lightfg:                     rgba ( 88, 104, 117, 100 % );
-    selected-normal-background:  rgba ( 214, 214, 214, 20 % );
+    selected-normal-background:  rgba ( 63, 68, 91, 90 % );
     border-color:                rgba ( 124, 131, 137, 100 % );
     spacing:                     2;
     separatorcolor:              rgba ( 29, 31, 33, 100 % );
@@ -32,11 +32,11 @@
     background-color:            rgba ( 0, 0, 0, 0 % );
     alternate-active-foreground: @active-foreground;
     active-background:           rgba ( 29, 31, 33, 17 % );
-    selected-active-background:  rgba ( 68, 145, 237, 100 % );
+    selected-active-background:  rgba ( 68, 145, 237, 90 % );
 }
 #window {
     background-color: @background;
-    border:           1;
+    border:           0;
     padding:          5;
 }
 #mainbox {
@@ -56,7 +56,7 @@
     spacing:      2px ;
     scrollbar:    true;
     padding:      2px 0px 0px ;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 #element {
     border:  0;
@@ -99,10 +99,10 @@
     text-color:       @alternate-active-foreground;
 }
 #scrollbar {
-    width:        4px ;
+    width:        1px ;
     border:       0;
     handle-color: @normal-foreground;
-    handle-width: 8px ;
+    handle-width: 1px ;
     padding:      0;
 }
 #mode-switcher {

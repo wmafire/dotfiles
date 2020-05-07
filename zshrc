@@ -2,12 +2,12 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/w/.oh-my-zsh
+export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
@@ -68,43 +68,34 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-    archlinux
-    cargo
-    cp
-    docker
-    docker-compose
-    extract
-    git
-    lol
-    mvn
-    node
-    npm
-    nvm
-    pip
-    pyenv
-    python
-    rust
-    sudo
-    yarn
-    z)
+plugins=(cargo
+     colored-man-pages
+     cp
+     docker
+     docker-compose
+     extract
+     fzf
+     git
+     mvn
+     node
+     npm
+     nvm
+     pip
+     pyenv
+     python
+     rust
+     sudo
+     tmux
+     yarn
+     z
+     zsh-autosuggestions
+     zsh_reload
+     zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-# Python
-eval "$(pyenv init -)"
-# eval "$(pyenv virtualenv-init -)"
-# Rust
-source $HOME/.cargo/env
-# Node
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-# TMUX
-#if [ -z "$TMUX" ]; then
-#    tmux attach -t default || tmux new -s default
-#fi
+source /usr/share/nvm/init-nvm.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -128,4 +119,6 @@ export NVM_DIR="$HOME/.nvm"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias pc="proxychains4"
+alias e="te"
+
+eval $(thefuck --alias)

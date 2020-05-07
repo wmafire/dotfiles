@@ -1,2 +1,3 @@
 rofi.theme: ~/.config/rofi/themes/default.rasi
-
+rofi.width: 30
+rofi.lines: 7

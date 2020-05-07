@@ -1,0 +1,37 @@
+* 软件包
+| alacritty                | 终端模拟器                        |
+| alsa-utils               | Advanced Linux Sound Architecture |
+| appmenu-gtk-module       | 全局菜单，可能会用上              |
+| aria2                    | 下载工具                          |
+| awesome                  | 窗口管理器                        |
+| awmtt                    | awesomewm 配置测试工具            |
+| bootsplash-systemd       | 开机动画                          |
+| bootsplash-theme-manjaro | 开机动画主题                      |
+| btrfs-progs              | btrfs文件系统支持                 |
+| chromium                 | 浏览器                            |
+| clash                    | 科学上网                          |
+| downgrade                | 软件降级工具                      |
+| easystroke               | 鼠标手势                          |
+| emacs                    | Emacs                             |
+| fcitx                    | 输入法                            |
+| fcitx-cloudpinyin        |                                   |
+| fcitx-configtool         |                                   |
+| fcitx-qt5                |                                   |
+| flameshot                | 截图工具                          |
+| fzf                      |                                   |
+| graphviz                 | 画图工具                          |
+| neofetch                 | Greeter                           |
+| networkmanager           | 代替dhcpcd                        |
+| noto-fonts               |                                   |
+| noto-fonts-cjk           |                                   |
+| noto-fonts-emoji         |                                   |
+| noto-fonts-extra         |                                   |
+| picom                    | 窗口合成器                        |
+| pulseaudio               |                                   |
+| ranger                   | 文件管理器                        |
+| rofi                     | 快速启动工具                      |
+| slim                     | 显示管理器                        |
+| snapper                  | btrfs备份工具                     |
+| snapper-gui              |                                   |
+| xcolor                   | 取色工具                          |
+| zsh                      | shell                             |
