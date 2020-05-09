@@ -34,12 +34,7 @@ if (command -v system-config-printer-applet && ! pgrep applet.py ); then
   system-config-printer-applet &
 fi
 
-# run compton --shadow-exclude '!focused'
 # run blueman-applet
 run msm_notifier
 
-~/.local/bin/compton --config ~/.config/compton.blur.conf -b &
-fcitx -d &
-enpass &
-sslocal -c ~/.config/ss.json &
-nutstore &
+
