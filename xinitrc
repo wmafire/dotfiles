@@ -15,4 +15,5 @@ setxkbmap -option caps:ctrl_modifier
 
 [ -f ~/.autostart.sh ] && source ~/.autostart.sh
 
-exec awesome
+mkdir -p /tmp/awesome
+exec awesome >> /tmp/awesome/stdout 2>> /tmp/awesome/stderr
