@@ -107,6 +107,7 @@ source /usr/share/nvm/init-nvm.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export TERM='xterm-256color'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -120,5 +121,6 @@ source /usr/share/nvm/init-nvm.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias e="te"
+#alias vim="nvim"
 
 eval $(thefuck --alias)
