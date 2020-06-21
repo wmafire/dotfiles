@@ -1,8 +1,0 @@
-[submodule "awesome"]
-	path = awesome
-	url = https://github.com/ismrwalter/awesome.git
-	branch = master
-[submodule "emacs.d"]
-	path = emacs.d
-	url = https://github.com/ismrwalter/emacs.d.git
-	branch = master
