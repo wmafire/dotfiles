@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 source /usr/share/nvm/init-nvm.sh
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/home/$USER/.cargo/bin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -107,7 +108,8 @@ source /usr/share/nvm/init-nvm.sh
 # else
 #   export EDITOR='mvim'
 # fi
-export TERM='xterm-256color'
+# export TERM='xterm-256color'
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -120,7 +122,7 @@ export TERM='xterm-256color'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias e="te"
+# alias emacs="emacs -nw"
 #alias vim="nvim"
 
 eval $(thefuck --alias)
