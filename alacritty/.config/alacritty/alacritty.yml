@@ -1,0 +1,73 @@
+window:
+  dimensions:
+    columns: 110
+    lines: 30
+  padding:
+    x: 15
+    y: 5
+  title: Terminal
+font:
+  size: 11.0
+
+  
+colors:
+
+  primary:
+    background: "#21242b"
+    foreground: "#abb2bf"
+     
+  cursor:
+    text: "#1e2541"
+    cursor: "#dee6e7"
+
+  vi_mode_cursor:
+    text: "#dee6e7"
+    cursor: "#2ce592"
+
+
+  selection:
+    text: "#dee6e7"
+    background: "#4f5572"
+
+  # Normal colors
+  normal:
+    black: "0x100e23"
+    red: "0xff8080"
+    green: "0x95ffa4"
+    yellow: "0xffe9aa"
+    blue: "0x91ddff"
+    magenta: "0xc991e1"
+    cyan: "0xaaffe4"
+    white: "0xcbe3e7"
+
+  # Bright colors
+  bright:
+    black: "0x565575"
+    red: "0xff5458"
+    green: "0x62d196"
+    yellow: "0xffb378"
+    blue: "0x65b2ff"
+    magenta: "0x906cff"
+    cyan: "0x63f2f1"
+    white: "0xa6b3cc"
+ 
+
+background_opacity: 0.95
+
+mouse_bindings:
+  - {mouse: Middle, action: Paste}
+  - {mouse: Right, action: Copy}
+  - {mouse: Right, action: ClearSelection}
+
+key_bindings:
+  - {key: Paste, action: Paste}
+  - {key: Copy, action: Copy}
+
+  - {key: PageUp, mods: Shift, mode: ~Alt, action: ScrollPageUp}
+  - {key: PageDown, mods: Shift, mode: ~Alt, action: ScrollPageDown}
+  - {key: Home, mods: Shift, mode: ~Alt, action: ScrollToTop}
+  - {key: End, mods: Shift, mode: ~Alt, action: ScrollToBottom}
+
+  - {key: V, mods: Control|Shift, action: Paste}
+  - {key: C, mods: Control|Shift, action: Copy}
+ 
