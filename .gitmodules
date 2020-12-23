@@ -1,0 +1,8 @@
+[submodule "awesome/.config/awesome"]
+	path = awesome/.config/awesome
+	url = https://github.com/wmafire/awesome.git
+	branch = master
+[submodule "emacs/.emacs.d"]
+	path = emacs/.emacs.d
+	url = https://github.com/wmafire/emacs.d.git
+	branch = master
