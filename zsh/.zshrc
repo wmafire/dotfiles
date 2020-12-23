@@ -74,9 +74,7 @@ plugins=(git
     sudo
     z
     zsh-autosuggestions
-zsh-syntax-highlighting)
-# 命令建议
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+    zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
