@@ -92,6 +92,6 @@ non-nested-ranger() {
     fi
 }
 alias rg=non-nested-ranger
-alias emacsserver='emacs --daemon'
-# alias e='TERM=xterm-24bit emacsclient -t'
-alias emacs='TERM=xterm-24bit emacs -nw'
+alias es='emacs --daemon'
+alias e='emacs -nw'
+alias ec='emacsclient -t'
