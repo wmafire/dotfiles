@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -80,7 +79,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export TERM=xterm-256color
-export PATH="/home/$USER/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # 防止ranger 嵌套
 non-nested-ranger() {
