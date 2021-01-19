@@ -30,6 +30,8 @@ run emacs --daemon
 #run lxsession -s awesome -e awesome
 run pkttyagent
 run flameshot
-#run enpass
+run enpass
 run nutstore
+run keepassxc
+run pa-applet
 # picom --experimental-backend
