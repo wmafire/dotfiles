@@ -75,6 +75,7 @@ plugins=(git
     zsh-autosuggestions
     zsh-syntax-highlighting)
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -91,6 +92,7 @@ non-nested-ranger() {
     fi
 }
 alias rg=non-nested-ranger
-alias es='emacs --daemon'
+alias ez='emacs --daemon'
+alias es=$'emacsclient -e "(save-buffers-kill-emacs)"'
 alias e='emacs -nw'
 alias ec='emacsclient -t'
