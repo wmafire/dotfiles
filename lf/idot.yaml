@@ -1,0 +1,11 @@
+links:
+  "~/.local/bin/lf":
+    target: "lf"
+  "~/.config/lf/image_preview.sh":
+    target: "image_preview.sh"
+  "~/.config/lf/previewer.sh":
+    target: "previewer.sh"
+  "~/.config/lf/cleaner.sh":
+    target: "cleaner.sh"
+  "~/.config/lf/lfrc":
+    target: "lfrc"
