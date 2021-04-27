@@ -1,0 +1,5 @@
+links:
+  "~/.zshrc":
+    target: "zshrc"
+  "~/.oh-my-zsh/custom/themes/meet.zsh-theme":
+    target: "meet.zsh-theme"

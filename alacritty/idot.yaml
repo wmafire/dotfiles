@@ -1,0 +1,3 @@
+links:
+  "~/.config/alacritty/alacritty.yml":
+    target: "alacritty.yml"

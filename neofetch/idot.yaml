@@ -1,0 +1,3 @@
+links:
+  "~/.config/neofetch/config.conf":
+    target: "config.conf"

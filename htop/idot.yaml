@@ -1,0 +1,3 @@
+links:
+  "~/.config/htop/htoprc":
+    target: "htoprc"

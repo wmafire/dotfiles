@@ -1,0 +1,3 @@
+links:
+  "~/.tmux.conf":
+    target: "tmux.conf"

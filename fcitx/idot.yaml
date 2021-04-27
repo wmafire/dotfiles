@@ -1,0 +1,13 @@
+links:
+  "~/.config/fcitx/conf":
+    target: "fcitx/conf"
+  "~/.config/fcitx/pinyin":
+    target: "fcitx/pinyin"
+  "~/.config/fcitx/skin":
+    target: "fcitx/skin"
+  "~/.config/fcitx/config":
+    target: "fcitx/config"
+  "~/.config/fcitx/profile":
+    target: "fcitx/profile"
+  "~/.pam_environment":
+    target: "pam_environment"

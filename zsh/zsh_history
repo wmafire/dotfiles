@@ -1,0 +1,1930 @@
+: 1618409459:0;ls
+: 1618409463:0;ranger
+: 1618409475:0;stow -S zsh
+: 1618409482:0;rm ~/.zshrc
+: 1618409484:0;stow -S zsh
+: 1618409599:0;ranger
+: 1618409639:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1618409675:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1618409682:0;ls
+: 1618409985:0;sudo pacman -S emacs
+: 1618411343:0;vim .Xresources
+: 1618411579:0;xdpyinfo | grep -B 2 resolution
+: 1618411594:0;pacman -Ss xorg
+: 1618412738:0;cd Do
+: 1618412740:0;cd Downloads
+: 1618412743:0;cd Aur
+: 1618412746:0;git clone https://aur.archlinux.org/google-chrome.git
+: 1618412756:0;cd google-chrome
+: 1618412764:0;makepkg -isr
+: 1618413310:0;ranger
+: 1618413339:0;vim .fonts.conf
+: 1618413349:0;pacman -Qs note
+: 1618413355:0;pacman -Qs noto
+: 1618413356:0;cd ..
+: 1618413363:0;stow -S font
+: 1618413468:0;echo $userresources
+: 1618413535:0;cd ~
+: 1618413539:0;vim .xinitrc
+: 1618413669:0;sudo pacman -S xorg
+: 1618413699:0;sudo pacman -Sy
+: 1618413703:0;sudo pacman -S xorg
+: 1618414011:0;vim .xinitrc
+: 1618414661:0;vim .gtkrc-2.0
+: 1618414710:0;xcolor
+: 1618414770:0;vim .config/awesome/themes/default/theme.lua
+: 1618416551:0;cd Downloads/Aur
+: 1618416554:0;git clone https://aur.archlinux.org/visual-studio-code-bin.git
+: 1618416560:0;ls -l
+: 1618416563:0;cd visual-studio-code-bin
+: 1618416568:0;makepkg -isr
+: 1618419717:0;pacman -Ss amixer
+: 1618419723:0;pacman -Qs amixer
+: 1618419729:0;pacman -F\ amixer
+: 1618419731:0;pacman -F amixer
+: 1618419736:0;sudo pacman -Fy
+: 1618419751:0;pacman -F amixer
+: 1618419771:0;sudo pacman -S alsa-utils
+: 1618421899:0;pacman -Ss alsamix
+: 1618421901:0;pacman -Ss alsa mix
+: 1618421918:0;alsamixer
+: 1618422044:0;amixer sget Master
+: 1618422093:0;cd Downloads/Aur
+: 1618422098:0;git clone https://aur.archlinux.org/awmtt.git
+: 1618422102:0;cd awmtt
+: 1618422105:0;makepkg -isr
+: 1618422119:0;awmtt start
+: 1618422171:0;awmtt restart
+: 1618423928:0;\\
+awmtt restart
+: 1618426900:0;alsamixer
+: 1618482971:0;sudo pacman -S htop
+: 1618482979:0;htop
+: 1618483822:0;awmtt start
+: 1618483989:0;awmtt restart
+: 1618484230:0;awmtt start
+: 1618484998:0;vim .config/alacritty/alacritty.yml
+: 1618485012:0;vim .config/picom.conf
+: 1618485059:0;kill 498
+: 1618485062:0;picom
+: 1618486702:0;cd Downloads/Aur
+: 1618486707:0;git clone https://aur.archlinux.org/picom-ibhagwan-git.git
+: 1618486719:0;cd picom-ibhagwan-git
+: 1618486722:0;makepkg -isr
+: 1618486779:0;picom
+: 1618486793:0;htop
+: 1618486866:0;picom
+: 1618486951:0;awmtt restart
+: 1618487648:0;awmtt start
+: 1618487675:0;awmtt restart
+: 1618493537:0;awmtt start
+: 1618493561:0;awmtt restart
+: 1618493591:0;htop
+: 1618493638:0;awmtt restart
+: 1618495426:0;vim .gtkrc-2.0
+: 1618495637:0;cd Downloads
+: 1618495638:0;ls
+: 1618495673:0;z
+: 1618495678:0;ls
+: 1618495682:0;x 
+: 1618495695:0;vim ~/.zshrc
+: 1618495716:0;ls ~/.oh-my-zsh/plugins/
+: 1618495725:0;z
+: 1618495726:0;z -h
+: 1618495730:0;z --help
+: 1618495734:0;ls
+: 1618495767:0;tar -xvf ./09-Skeuos-Black-Light_20210415.tar.xz
+: 1618495769:0;rg
+: 1618495808:0;vim ~/.gtkrc-2.0
+: 1618495919:0;cd Downloads
+: 1618495920:0;ls
+: 1618495949:0;tar -xvf ./10-Skeuos-Black-Dark_20210415.tar.xz
+: 1618495951:0;rg
+: 1618495976:0;vim ~/.gtkrc-2.0
+: 1618496341:0;rg
+: 1618496367:0;tar -xvf ./Juno.tar.xz
+: 1618496370:0;ranger
+: 1618496394:0;vim ~/.gtkrc-2.0
+: 1618497262:0;rg
+: 1618497274:0;tar -xvf ./Pop-nord-dark.zip
+: 1618497278:0;uzip
+: 1618497292:0;z ./Pop-nord-dark.zip
+: 1618497293:0;ls
+: 1618497309:0;sudo pacman -Ss uzip
+: 1618497314:0;sudo pacman -Ss unzip
+: 1618497325:0;sudo pacman -Ss 7zip
+: 1618497336:0;sudo pacman -S uzip
+: 1618497339:0;sudo pacman -S unzip
+: 1618497349:0;unzip ./Pop-nord-dark.zip
+: 1618497350:0;rg
+: 1618497377:0;vim ~/.gtkrc-2.0
+: 1618497553:0;cd Downloads/Aur
+: 1618497558:0;git clone https://aur.archlinux.org/flat-remix-gtk.git
+: 1618497664:0;git clone flat-remix
+: 1618497675:0;git clone https://aur.archlinux.org/flat-remix.git
+: 1618497680:0;cd flat-remix
+: 1618497682:0;makepkg -isr
+: 1618497815:0;ls -l /usr/share/icons
+: 1618497827:0;cd ..
+: 1618497831:0;cd flat-remix-gtk
+: 1618497833:0;makepkg -isr
+: 1618497910:0;ls -l /usr/share/themes
+: 1618497914:0;vim ~/.gtkrc-2.0
+: 1618497971:0;ls -l /usr/share/icons
+: 1618498533:0;vim ~/.gtkrc-2.0
+: 1618498848:0;cd Do
+: 1618498850:0;cd Downloads
+: 1618498851:0;ls
+: 1618498880:0;tar -xvf ./Yaru-Grey-v20.10.1.tar.xz
+: 1618498885:0;rg
+: 1618498949:0;vim ~/.gtkrc-2.0
+: 1618499687:0;sudo pacman -S materia-gtk-theme
+: 1618499713:0;pacman -Fl gnome-themes-extra
+: 1618499732:0;ls -l /usr/share/themes
+: 1618499740:0;vim ~/.gtkrc-2.0
+: 1618502973:0;pacman -Ss icon theme
+: 1618504092:0;awmtt start
+: 1618504198:0;awmtt restart
+: 1618508637:0;vim .config/picom.conf
+: 1618508991:0;vim .config/alacritty/alacritty.yml
+: 1618509257:0;pacman -Qs flat
+: 1618509279:0;pacman -Rsn flat-remix flat-remix-gtk
+: 1618509281:0;sudo pacman -Rsn flat-remix flat-remix-gtk
+: 1618511401:0;vim .config/rofi/themes/default.rasi
+: 1618512444:0;htop
+: 1618512588:0;ls
+: 1618512764:0;vim .config/picom.conf
+: 1618514136:0;kill 496
+: 1618514138:0;picom
+: 1618515300:0;pacman -Ss theme gtk
+: 1618515364:0;pacman -Ss arc theme
+: 1618515386:0;pacman -S arc-gtk-theme arc-icon-theme
+: 1618515388:0;sudo pacman -S arc-gtk-theme arc-icon-theme
+: 1618515403:0;ls -l /usr/share/themes
+: 1618515425:0;vim .gtkrc-2.0
+: 1618515448:0;ls -l /usr/share/icons
+: 1618515731:0;pacman -Ss gtk-engine-murrine
+: 1618515857:0;vim .gtkrc-2.0
+: 1618516259:0;xcolor
+: 1618516271:0;vim .config/alacritty/alacritty.yml
+: 1618516279:0;xcolor
+: 1618516396:0;ls -l /usr/share/icons
+: 1618516406:0;vim .gtkrc-2.0
+: 1618516714:0;pacman -Ss gtk theme
+: 1618516896:0;cd Downloads
+: 1618516900:0;ls
+: 1618516911:0;unzip ./Dracula.zip
+: 1618516924:0;unzip ./gtk-master.zip
+: 1618516932:0;rg
+: 1618516968:0;mkdir .icons
+: 1618516970:0;rg
+: 1618516999:0;vim .gtkrc-2.0
+: 1618517004:0;cd ..
+: 1618517005:0;vim .gtkrc-2.0
+: 1618517111:0;xcolor
+: 1618517269:0;sudo xcolorOA
+: 1618517280:0;xcolor
+: 1618519217:0;vim .gtkrc-2.0
+: 1618519554:0;ls -l /usr/share/icons
+: 1618519581:0;ls -l /usr/share/themes
+: 1618519654:0;vim .config/alacritty/alacritty.yml
+: 1618519663:0;vim .config/rofi/themes/default.rasi
+: 1618519683:0;xcolor -h
+: 1618519690:0;xcolor -f rgb
+: 1618520130:0;vim .xprofile
+: 1618520142:0;vim .xinitrc
+: 1618520147:0;vim .xprofile
+: 1618520195:0;setxkbmap -option caps:ctrl_modifier
+: 1618520222:0;rm -r .emacs.d
+: 1618520238:0;ln -s ~/Projects/emacs.d .emacs.d
+: 1618567915:0;pacman -S light-lock
+: 1618567918:0;pacman -Ss light-lock
+: 1618567958:0;pacman -Qs lightdm
+: 1618568054:0;sudo pacman -S light-locker
+: 1618568093:0;light-locker-command -l
+: 1618568214:0;light-locker
+: 1618568219:0;light-locker-command -l
+: 1618568243:0;vim .xprofile
+: 1618568283:0;e
+: 1618568292:0;vim .config/rofi/themes/default.rasi
+: 1618569654:0;pacman -Ss thu
+: 1618569661:0;pacman -Ss index-fm
+: 1618569711:0;sudo pacman -S index-fm
+: 1618571017:0;ls
+: 1618571022:0;htop
+: 1618571793:0;ls
+: 1618571918:0;vim
+: 1618571985:0;sudo vim /etc/hostname 
+: 1618572023:0;passwd
+: 1618572036:0;su
+: 1618574826:0;light-locker-command -l
+: 1618574833:0;vim .xprofile
+: 1618574877:0;ec
+: 1618574948:0;run
+: 1618574959:0;source .xprofile
+: 1618574964:0;light-locker-command -l
+: 1618575495:0;htop
+: 1618575524:0;pacman -Ss cmatrix
+: 1618575529:0;sudo pacman -S cmatrix
+: 1618575539:0;cmatrix
+: 1618575577:0;cmatrix -h
+: 1618575604:0;cmatrix -x -C blue -r
+: 1618575613:0;cmatrix  -C blue 
+: 1618575629:0;sudo pacman -Rsn cmatrix 
+: 1618575674:0;htop
+: 1618576098:0;awesome-client -h
+: 1618576124:0;awesome-client "print("hello")"
+: 1618576129:0;awesome-client "print(\"hello\")"
+: 1618576135:0;awesome-client "notify(\"hello\")"
+: 1618576161:0;awesome-client "menubar.show()"
+: 1618576546:0;pacman -Qs theme
+: 1618576566:0;pacman -Qs materia
+: 1618576570:0;pacman -Rsn materia
+: 1618576572:0;sudo pacman -Rsn materia
+: 1618576577:0;sudo pacman -Rsn materia-gtk-theme
+: 1618576585:0;pacman -Qs icon
+: 1618576592:0;rg
+: 1618576621:0;pacman -Qs arc
+: 1618576624:0;pacman -Qs Arc
+: 1618576641:0;vim .config/alacritty/alacritty.yml
+: 1618576670:0;pacman -Ss telegram
+: 1618576686:0;sudo pacman -S telegram-desktop
+: 1618577350:0;pacman -S -h
+: 1618577369:0;sudo pacman -S fcitx-im
+: 1618577575:0;pacman -h
+: 1618579113:0;htop
+: 1618579637:0;cd Downloads
+: 1618579638:0;ls
+: 1618579640:0;rg
+: 1618579655:0;git clone https://aur.archlinux.org/netease-cloud-music-gtk.git 
+: 1618579662:0;cd netease-cloud-music-gtk
+: 1618579664:0;makepkg -isr
+: 1618580175:0;pacman -Ss osdlyrics
+: 1618580185:0;pacman -S osdlyrics
+: 1618580187:0;sudo pacman -S osdlyrics
+: 1618580200:0;pacman -Sy
+: 1618580201:0;sudo pacman -Sy
+: 1618580210:0;sudo pacman -S osdlyrics
+: 1618580288:0;ls -al
+: 1618580290:0;cd ~
+: 1618580293:0;ls -al
+: 1618580298:0;rg
+: 1618580343:0;osdlyrics
+: 1618580364:0;xprop
+: 1618580537:0;pacman -Ss osdlyrics
+: 1618580697:0;sudo vim /etc/pacman.d/mirrorlist
+: 1618580785:0;sudo pacman -S  reflector 
+: 1618580831:0;reflector --country China --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+: 1618580849:0;reflector --country China --protocol https --sort rate
+: 1618580868:0;sudo reflector --country China --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+: 1618580937:0;sudo pacman -Sy
+: 1618580948:0;pacman -Rsn osdlyrics
+: 1618580949:0;sudo pacman -Rsn osdlyrics
+: 1618581017:0;sudo pacman -Ss osdlyrics
+: 1618581280:0;cd Downloads
+: 1618581281:0;cd Aur
+: 1618581282:0;ls
+: 1618581290:0;git clone https://aur.archlinux.org/osdlyrics-git.git
+: 1618581295:0;cd osdlyrics-git
+: 1618581297:0;makepkg -isr
+: 1618581626:0;osdlyrics
+: 1618582022:0;xprop
+: 1618582037:0;picom
+: 1618582046:0;kill picom
+: 1618582049:0;kill 494
+: 1618582050:0;picom
+: 1618582280:0;pacman -Rsn osdlyrics
+: 1618582281:0;sudo pacman -Rsn osdlyrics
+: 1618582294:0;pacman -Qs osd
+: 1618582300:0;pacman -Rsn osdlyrics-git
+: 1618582301:0;sudo pacman -Rsn osdlyrics-git
+: 1618582352:0;picom&
+: 1618582372:0;nohup picon&
+: 1618582378:0;picom
+: 1618582494:0;pacman -Ss sarasa
+: 1618582501:0;sudo pacman -S ttf-sarasa-gothic
+: 1618585137:0;pacman -Ss thou
+: 1618585140:0;pacman -Ss thour
+: 1618585971:0;sudo vim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1618586037:0;light-locker-command -l
+: 1618586079:0;pacman -Ss lightdm
+: 1618586096:0;sudo pacman -S lightdm-gtk-greeter-settings
+: 1618586116:0;sudo lightdm-gtk-greeter-settings
+: 1618586181:0;sudo vim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1618586192:0;light-locker-command -l
+: 1618586235:0;sudo lightdm-gtk-greeter-settings
+: 1618586276:0;ls -l /usr/share
+: 1618586321:0;light-locker-command -l
+: 1618586355:0;ls -l Projects/awesome/awesome-translator
+: 1618586358:0;ls -l Projects/awesome/wallpapers
+: 1618586378:0;rg
+: 1618586500:0;sudo lightdm-gtk-greeter-settings
+: 1618586511:0;xcolor
+: 1618586541:0;sudo vim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1618586548:0;light-locker-command -l
+: 1618587391:0;cd Downloads
+: 1618587392:0;cd Aur
+: 1618587396:0;git clone polkit-dumb-agent-git
+: 1618587406:0;git clone https://aur.archlinux.org/polkit-dumb-agent-git.git
+: 1618587410:0;cd polkit-dumb-agent-git
+: 1618587419:0;makepkg -isr
+: 1618587456:0;vim .xprofile
+: 1618587460:0;vim ~/.xprofile
+: 1618587527:0;polkit-dumb-agent
+: 1618587548:0;polkit-dumb-agent -h
+: 1618587554:0;polkit-dumb-agent
+: 1618587591:0;vim ~/.xprofile
+: 1618587602:0;polkit-dumb-agent
+: 1618587622:0;systemctl restart NetworkManager
+: 1618588438:0;pacman -Ss file manager
+: 1618588559:0;sudo pacman -S index-fm
+: 1618588939:0;pacman -Ss Kvantum
+: 1618588947:0;sudo pacman -S kvantum-qt5
+: 1618589037:0;systemctl restart NetworkManager
+: 1618589102:0;pacman -Rsn kvantum-qt5
+: 1618589103:0;sudo pacman -Rsn kvantum-qt5
+: 1618589957:0;rofi -h
+: 1618590262:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi
+: 1618590303:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618590433:0;neofetch
+: 1618590440:0;sudo pacman -S neofetch
+: 1618590447:0;neofetch
+: 1618590567:0;rofi -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618590578:0;vim  launcher.rasi
+: 1618590617:0;rofi -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618590882:0;neofetch
+: 1618590927:0;pacman -Ss Flameshot
+: 1618590933:0;sudo pacman -S flameshot
+: 1618590953:0;vim  launcher.rasi
+: 1618591756:0;rofi -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618592050:0;vim .config/rofi/config.rasi
+: 1618592108:0;rofi -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618592341:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618592574:0;code launcher.rasi
+: 1618592643:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618593448:0;rofi -dpi 80 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618593453:0;rofi -dpi 40 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618593537:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618594892:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc" -me-select-entry '' -me-accept-entry 'Mouse1'
+: 1618594899:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618595013:0;mv launcher.rasi launchpad.rasi
+: 1618595025:0;pacman -Ss launchpad
+: 1618595028:0;rg
+: 1618595176:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc" -m -3
+: 1618595227:0;mkdir misc
+: 1618595229:0;rg
+: 1618595844:0;rofi -dpi 125 -show drun -theme ~/launcher.rasi  -icon-theme "Arc" -m -3
+: 1618595933:0;rofi -dpi 125 -show drun   -icon-theme "Arc"
+: 1618595956:0;rofi -modi drum -dpi 125 -show drun   -icon-theme "Arc"
+: 1618595962:0;rofi -modi drun -dpi 125 -show drun   -icon-theme "Arc"
+: 1618596218:0;vim .config/rofi/config.rasi
+: 1618596462:0;rofi -h|less
+: 1618596720:0;man rofi
+: 1618596778:0;rofi -h|less
+: 1618596914:0;rofi -v
+: 1618596957:0;rofi -h|less
+: 1618597085:0;xcolor
+: 1618597958:0;rofi -dmenu hello;world
+: 1618597977:0;echo "hello;world\n"|rofi -dmenu 
+: 1618597984:0;echo "hello\nworld\n"|rofi -dmenu 
+: 1618597988:0;echo "hello\nworld"|rofi -dmenu 
+: 1618598108:0;echo -e "Option #1\nOption #2\nOption #3" | rofi -dmenu
+: 1618598215:0;echo -en "aap\0icon\x1ffolder\n" |rofi --dmenu
+: 1618598253:0;echo -en "aap\0icon\x1ffolder\n" 
+: 1618598304:0;echo -en "aap\0icon\x1ffolder\n" |rofi --dmenu -format i:s
+: 1618598343:0;echo -en "aap\0icon\x1ffolder\n" |rofi --dmenu -format e
+: 1618598350:0;echo -en "aap\0icon\x1ffolder\n" |rofi --dmenu -format s:e
+: 1618598391:0;echo -en "aap\0icon\x1ffolder\n" || rofi -dmenu -format i:s
+: 1618598399:0;echo -en "aap\0icon\x1ffolder\n" | rofi -dmenu -format i:s
+: 1618598413:0;echo -en "aap\0icon\x1ffolder\n" | rofi -dmenu -format i:s --show-icon
+: 1618598426:0;echo -en "aap\0icon\x1ffolder\n" | rofi -dmenu -format i:s --show-icons
+: 1618598434:0;rg
+: 1618598533:0;echo -en "aap\0icon\x1fdesktop\n" | rofi -dmenu -format i:s --show-icons
+: 1618598544:0;echo -en "aap\0icon\x1fdesktop\n" | rofi -dmenu --show-icons
+: 1618598564:0;echo -en "aap\0icon\x1fdesktop\n" | rofi -dmenu --show-icons -icon-theme Arc
+: 1618598604:0;echo -en "aap\0icon\x1femacs\n" | rofi -dmenu --show-icons -icon-theme Arc
+: 1618598631:0;rofi
+: 1618598637:0;rofi -show drun -theme ~/launcher.rasi  -icon-theme "Arc"
+: 1618598642:0;rofi -show drun -theme -icon-theme "Arc"
+: 1618598649:0;rofi -show drun-icon-theme "Arc"
+: 1618598652:0;rofi -show drun -icon-theme "Arc"
+: 1618598659:0;rofi -show drun -show-icons -icon-theme "Arc"
+: 1618598679:0;echo -en "aap\0icon\x1femacs\n" | rofi -dmenu -show-icons -icon-theme "Arc"
+: 1618598690:0;echo -en "aap\0icon\x1flogout\n" | rofi -dmenu -show-icons -icon-theme "Arc"
+: 1618598734:0;echo -en "aap\0icon\x1finfo\n" | rofi -dmenu -show-icons -icon-theme "Arc"
+: 1618598938:0;echo -en "Poweroff\0icon\x1fsystem-shutdown\n" | rofi -dmenu -show-icons -icon-theme "Arc"
+: 1618599142:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen\nLogout\0icon\x1fsystem-logout\n" | rofi -dmenu -show-icons -icon-theme "Arc"
+: 1618599222:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -show-icons -icon-theme "Arc"
+: 1618599246:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -show-icons -icon-theme "Arc" -theme ./misc/launchpad.rasi
+: 1618599261:0;rg
+: 1618599301:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -show-icons -icon-theme "Arc" -theme ./misc/launchpad.rasi
+: 1618599877:0;systemctl suspend
+: 1618653437:0;pacman -Ss Flat
+: 1618653486:0;cd Downloads
+: 1618653487:0;ls
+: 1618653490:0;cd Aur
+: 1618653491:0;ls
+: 1618653496:0;cd flat-remix-gtk
+: 1618653498:0;makepkg -isr
+: 1618653580:0;ls -l /usr/share/themes
+: 1618653592:0;vim .gtkrc-2.0
+: 1618653599:0;vim ~/.gtkrc-2.0
+: 1618653743:0;systemctl reboot
+: 1618653843:0;cd Downloads/Aur
+: 1618653847:0;cd flat-remix
+: 1618653849:0;makepkg -isr
+: 1618653892:0;ls -l /usr/share/icons
+: 1618653918:0;vim ~/.gtkrc-2.0
+: 1618654025:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -show-icons -icon-theme "Flat-Remix-Blue-Dark"
+: 1618654056:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -theme ./misc/launchpad.rasi -show-icons -icon-theme "Flat-Remix-Blue-Dark"
+: 1618654228:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -theme ./misc/launchpad.rasi -show-icons -icon-theme "Flat-Remix-Blue-Light"
+: 1618654248:0;echo -en "Shutdown\0icon\x1fsystem-shutdown\nSuspend\0icon\x1fsystem-suspend\nReboot\0icon\x1fsystem-reboot\nLock Screen\0icon\x1fsystem-lock-screen" | rofi -dmenu -theme ./misc/launchpad.rasi -show-icons -icon-theme "Flat-Remix-Grey-Dark"
+: 1618654177:24;rg
+: 1618654288:0;cd /usr/share/icons
+: 1618654290:0;rg
+: 1618654576:0;pacman -Rsn arc-gtk-theme arc-icon-theme
+: 1618654577:0;sudo pacman -Rsn arc-gtk-theme arc-icon-theme
+: 1618654633:0;rg
+: 1618654701:0;xcolor
+: 1618654769:0;light-locker-command -l
+: 1618655279:0;pacman -Ss lf
+: 1618655777:0;lf
+: 1618655943:0;cd ~/Downloads/Aur
+: 1618655947:0;git clone https://aur.archlinux.org/lf.git
+: 1618656038:0;cd lf
+: 1618656040:0;makepkg -isr
+: 1618656125:0;lf
+: 1618656302:0;pacman -Ss ueberzug
+: 1618656307:0;sudo pacman -S ueberzug
+: 1618656444:0;lf
+: 1618656513:0;cd ~/.config
+: 1618656515:0;lf
+: 1618656550:0;ls
+: 1618656552:0;lf
+: 1618656664:0;pacman -Ss transh
+: 1618656674:0;pacman -Ss trash-cli
+: 1618656678:0;sudo pacman -S trash-cli
+: 1618656784:0;mkdir lf
+: 1618656789:0;cd lf
+: 1618656792:0;touch lfrc
+: 1618656794:0;ls
+: 1618656924:0;lf
+: 1618657639:0;ls
+: 1618657650:0;lf
+: 1618660072:0;vim /lib/initcpio/init
+: 1618660166:0;sudo vim /lib/initcpio/init
+: 1618660182:0;mkinitcpio -P
+: 1618660192:0;sudo mkinitcpio -P
+: 1618660390:0;awmtt restart
+: 1618660393:0;awmtt start
+: 1618661166:0;light-locker-command -h
+: 1618661687:0;sudo vim /lib/initcpio/init
+: 1618661713:0;sudo vim /lib/initcpio/init_functions
+: 1618661727:0;sudo mkinitcpio -P
+: 1618661753:0;lf
+: 1618662014:0;cd .cache
+: 1618662020:0;ls -l
+: 1618662026:0;cd ..
+: 1618662117:0;ls -al
+: 1618662133:0;cd .local/share
+: 1618662134:0;ls -al
+: 1618662137:0;rg
+: 1618662350:0;pacman -Ss nerd
+: 1618662388:0;sudo pacman -S ttf-nerd-fonts-symbols
+: 1618662399:0;rg
+: 1618662403:0;ls
+: 1618662405:0;lf
+: 1618662436:0;cd ..
+: 1618662442:0;cd ~/.config
+: 1618662443:0;lf
+: 1618662456:0;cd lf
+: 1618662459:0;vim lfrc
+: 1618662743:0;ls
+: 1618662748:0;chmod +x test.sh
+: 1618662751:0;./test.sh
+: 1618662867:0;chmod +x previewer.sh
+: 1618662888:0;./test.sh
+: 1618662897:0;lf
+: 1618662901:0;./test.sh
+: 1618662980:0;pacman -Ss bat
+: 1618662989:0;pacman -Ss bat cat
+: 1618662995:0;sudo pacman -S bat
+: 1618663004:0;bat audio-headset.png
+: 1618663014:0;bat ./previewer.sh
+: 1618663030:0;bat ./previewer.sh draw_img.sh
+: 1618663038:0;bat ./previewer.sh test.sh
+: 1618663047:0;bat test.sh
+: 1618663099:0;lf
+: 1618663127:0;bat -h
+: 1618663157:0;bat -A test.sh
+: 1618663181:0;bat -A --wrap never  test.sh
+: 1618663236:0;bat -A --decorations never  test.sh
+: 1618663250:0;bat --decorations never  test.sh
+: 1618663257:0;bat --decorations never clear_img.sh
+: 1618663264:0;bat --decorations never test.sh
+: 1618663270:0;bat --decorations never previewer.sh
+: 1618663556:0;./test.sh
+: 1618663711:0;source-highlight
+: 1618663783:0;bat -h
+: 1618663824:0;./test.sh
+: 1618664971:0;man lf
+: 1618665031:0;./test.sh
+: 1618665093:0;man lf
+: 1618665128:0;lf
+: 1618665152:0;ls
+: 1618665154:0;lf
+: 1618665174:0;man lf
+: 1618665359:0;lf
+: 1618665419:0;trash-list
+: 1618665426:0;trash-restore
+: 1618665451:0;lf
+: 1618665926:0;read -p
+: 1618665943:0;read -p "Press enter to continue"
+: 1618665977:0;read -n 1
+: 1618666026:0;read -p "Press enter to continue" x
+: 1618666036:0;read -n 1 -s -r -p "Press any key to continue"
+: 1618666417:0;lf
+: 1618666444:0;which lf
+: 1618666450:0;vim .zshrc
+: 1618666470:0;ls -al
+: 1618666565:0;lf
+: 1618666768:0;which lf
+: 1618666784:0;lf
+: 1618666879:0;ls .local/bin
+: 1618666889:0;lf
+: 1618666898:0;which lf
+: 1618666904:0;lf
+: 1618666914:0;vim .local/bin/lf
+: 1618666924:0;lf
+: 1618666932:0;vim .local/bin/lf
+: 1618666943:0;lf
+: 1618666947:0;vim .local/bin/lf
+: 1618666971:0;lf
+: 1618667666:0;hostname
+: 1618667671:0;pacman -Ss hostname
+: 1618667692:0;$HOST
+: 1618667694:0;echo $HOST
+: 1618667706:0;lf
+: 1618668457:0;vim ~/.zshrc
+: 1618668471:0;ls
+: 1618668473:0;lf
+: 1618668521:0;echo $LS_COLORS
+: 1618668682:0;lf
+: 1618668711:0;vim .Xresources
+: 1618668773:0;ls
+: 1618668775:0;lf
+: 1618669267:0;man lf
+: 1618669380:0;lf
+: 1618672637:0;LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';\
+export LS_COLORS
+: 1618672639:0;lf
+: 1618672651:0;ls
+: 1618672659:0;rg
+: 1618672685:0;echo $LS_COLORS
+: 1618672687:0;ls
+: 1618672689:0;lf
+: 1618673110:0;export ls_colors=di=36:ln=37:so=33:pi=33:ex=1;32:bd=34:cd=32:su=32:sg=32:tw=1;36:ow=1;36
+: 1618673118:0;export ls_colors="di=36:ln=37:so=33:pi=33:ex=1;32:bd=34:cd=32:su=32:sg=32:tw=1;36:ow=1;36"
+: 1618673119:0;ls
+: 1618673129:0;lf
+: 1618673138:0;export LS_COLORS="di=36:ln=37:so=33:pi=33:ex=1;32:bd=34:cd=32:su=32:sg=32:tw=1;36:ow=1;36"
+: 1618673140:0;lf
+: 1618673152:0;LS_COLORS="di=36:ln=37:so=33:pi=33:ex=1;32:bd=34:cd=32:su=32:sg=32:tw=1;36:ow=1;36"
+: 1618673161:0;export LS_COLORS
+: 1618673163:0;lf
+: 1618673170:0;LF_COLORS="di=36:ln=37:so=33:pi=33:ex=1;32:bd=34:cd=32:su=32:sg=32:tw=1;36:ow=1;36"
+: 1618673173:0;export LF_COLORS
+: 1618673174:0;lf
+: 1618673251:0;LF_COLORS="di=34:ln=35:so=33:pi=33:ex=1;32:bd=34:cd=32:su=32:sg=32:tw=1;34:ow=1;34"
+: 1618673253:0;export LF_COLORS
+: 1618673254:0;lf
+: 1618673274:0;vim .zshrc
+: 1618673297:0;lf
+: 1618673312:0;vim .zshrc
+: 1618673332:0;lf
+: 1618673714:0;pacman -Ss rustup
+: 1618673720:0;sudo pacman -S rustup
+: 1618673728:0;rustup 
+: 1618673734:0;rustup  toolchain
+: 1618673743:0;rustup  toolchain list
+: 1618673775:0;rustup  toolchain install stable
+: 1618673849:0;cargo
+: 1618673887:0;lf
+: 1618673922:0;cd Projects
+: 1618673924:0;ls
+: 1618673929:0;cargo new --bin idot
+: 1618676175:0;lf
+: 1618677557:0;cargo test --no-capture
+: 1618677561:0;cargo test -- --no-capture
+: 1618677579:0;cargo test --no-capture
+: 1618677589:0;cargo test --help
+: 1618677604:0;cargo test --help|bat
+: 1618677640:0;cargo test -- --nocapture
+: 1618677692:0;cd ~
+: 1618677693:0;ls
+: 1618677702:0;cargo test -- --nocapture
+: 1618677718:0;ls -al
+: 1618677734:0;cargo test -- --nocapture
+: 1618678648:0;cargo build
+: 1618678859:0;cargo test -- --nocapture
+: 1618680419:0;cargo build
+: 1618680499:0;cargo test -- --nocapture
+: 1618681667:0;ls -l /bin/sh
+: 1618681791:0;cargo build
+: 1618682358:0;cargo test -- --nocapture
+: 1618685093:0;lf
+: 1618687567:0;mkdir a
+: 1618687571:0;mkdir b
+: 1618687573:0;cd b
+: 1618687582:0;touch f1
+: 1618687588:0;cd ../a
+: 1618687598:0;ln -s ../b b
+: 1618687599:0;ls
+: 1618687634:0;lf
+: 1618718794:0;fc-list|grep Noto cjk
+: 1618718800:0;fc-list|grep Noto CJK
+: 1618718803:0;fc-list
+: 1618718811:0;fc-list|grep Noto
+: 1618718840:0;fc-list|grep Noto Mono
+: 1618718851:0;fc-list|grep "NotoSans"
+: 1618718856:0;fc-list|grep "NotoSansCJK"
+: 1618719116:0;pacman -Ss YaHei
+: 1618719172:0;ls
+: 1618719173:0;lf
+: 1618719209:0;fc-cache -f
+: 1618719223:0;fc-list|grep "Yahei"
+: 1618719230:0;fc-list|grep "Micro"
+: 1618719365:0;lf
+: 1618719432:0;pacman -S Wenq
+: 1618719437:0;pacman -Ss Wenquan
+: 1618719446:0;pacman -Ss wqy
+: 1618719466:0;sudo pacman -S wqy-microhei
+: 1618719487:0;fc-list|grep "WEN"
+: 1618719489:0;fc-list|grep "Wen"
+: 1618719971:0;fc-list|grep "Sarasa"
+: 1618720006:0;fc-list|grep "Sarasa CJK"
+: 1618720014:0;fc-list|grep "Sarasa Mono"
+: 1618720050:0;fc-list|grep "Sarasa Mono Slab"
+: 1618720054:0;fc-list|grep "Sarasa Mono Slab SC" 
+: 1618720099:0;fc-list|grep "Sarasa Mono" 
+: 1618743347:0;git --global
+: 1618743357:0;cd Projects/emacs.d
+: 1618743360:0;git status
+: 1618743362:0;git add .
+: 1618743370:0;git commit -m "."
+: 1618743381:0;git config --global user.email meetbrightcw@gmail.com
+: 1618743394:0;git config --global user.name Bright
+: 1618743435:0;git checkout master
+: 1618745021:0;git branch
+: 1618745028:0;git checkout development
+: 1618748160:0;light-locker -h
+: 1618748272:0;light-locker llhelp-all
+: 1618748278:0;light-locker --help-all
+: 1618748406:0;xset
+: 1618748413:0;xget
+: 1618748473:0;xset q
+: 1618748575:0;pacman -Qs xscreen
+: 1618748752:0;xset s 3600 3600
+: 1618748755:0;xset q
+: 1618761916:0;kill 490
+: 1618761923:0;picom
+: 1618764214:0;emacs -q
+: 1618767845:0;emacs
+: 1618767853:0;e
+: 1618767944:0;e --debug-init
+: 1618768414:0;\emacs -nw
+: 1618816790:0;bat .zshrc
+: 1618816808:0;es
+: 1618816811:0;ez
+: 1618816821:0;e
+: 1618816850:0;bat .zshrc
+: 1618816864:0;c
+: 1618816866:0;ec
+: 1618821017:0;picom &
+: 1618822632:0;lf
+: 1618822684:0;cd ~
+: 1618822687:0;bat .pam_environment
+: 1618822696:0;bat .xprofile
+: 1618822758:0;cd Downloads/Aur
+: 1618822763:0;git clone https://aur.archlinux.org/qt5-styleplugins.git
+: 1618822791:0;lf
+: 1618822913:0;cd qt5-styleplugins
+: 1618822916:0;makepkg -isr
+: 1618823101:0;xprop
+: 1618823332:0;bat .xprofile
+: 1618823469:0;pacman -Rsn index-fm
+: 1618823470:0;sudo pacman -Rsn index-fm
+: 1618823487:0;pacman -Qs style
+: 1618823570:0;pacman -Ss qtfm
+: 1618823587:0;pacman -Ss Sunflower
+: 1618823742:0;pacman -Ss gtk2
+: 1618823745:0;pacman -Qs gtk2
+: 1618824823:0;cd  .config/gtk-2.0/
+: 1618824826:0;lf
+: 1618824875:0;sudo pacman -S lxappearance
+: 1618824971:0;ls
+: 1618824972:0;cd ~
+: 1618824978:0;vim .gtkrc-2.0
+: 1618824997:0;vim .config/gtk-3.0/settings.ini
+: 1618825274:0;lf
+: 1618825937:0;cd ~/Downloads
+: 1618825939:0;git clone https://aur.archlinux.org/bibata-cursor-theme.git 
+: 1618825949:0;cd bibata-cursor-theme
+: 1618825951:0;makepkg -isr
+: 1618826017:0;cd ..
+: 1618826021:0;git clone https://aur.archlinux.org/paru.git
+: 1618826027:0;cd paru
+: 1618826029:0;makepkg -isr
+: 1618826184:0;paru -Ss bibata
+: 1618826207:0;paru -Ss cursor theme
+: 1618826225:0;paru -Ss bibata
+: 1618826234:0;paru -S bibata-cursor-theme
+: 1618826353:0;lf
+: 1618826909:0;sudo paru -Rsn bibata-cursor-theme
+: 1618826932:0;lf
+: 1618827635:0;paru -S yas music
+: 1618827640:0;paru -Ss yas music
+: 1618827671:0;pacman -Ss \
+YesPlayMusic
+: 1618827682:0;paru -Ss YesPlayMusic
+: 1618827695:0;paru -S yesplaymusic-appimage
+: 1618827836:0;paru -Q -h
+: 1618827855:0;paru -Qs netease
+: 1618827863:0;paru -Rsn netease-cloud-music-gtk
+: 1618828720:0;sudo pacman -S pulseaudio 
+: 1618828743:0;systemctl --user status  pulseaudio 
+: 1618828751:0;systemctl --user status  pulseaudio.service
+: 1618828763:0;systemctl --user enable pulseaudio.service
+: 1618828769:0;systemctl --user start pulseaudio.service
+: 1618828786:0;pacman -Ss obs
+: 1618828795:0;pacman -S obs-studio
+: 1618828797:0;sudo pacman -S obs-studio
+: 1618829210:0;systemctl --user status pulseaudio.service
+: 1618829227:0;systemctl --user start pulseaudio.service
+: 1618829228:0;systemctl --user status pulseaudio.service
+: 1618829392:0;alsamixer
+: 1618829525:0;systemctl status alsa-restore.service
+: 1618829530:0;systemctl status alsa-state.service
+: 1618829601:0;systemctl enable alsa-state.service
+: 1618829661:0;systemctl enable alsa-restore.service
+: 1618829671:0;systemctl disable alsa-state.service
+: 1618829675:0;systemctl enable alsa-restore.service
+: 1618829701:0;systemctl state alsa-restore.service
+: 1618829704:0;systemctl status alsa-restore.service
+: 1618829727:0;systemctl enable alsa-restore.service
+: 1618829737:0;reboot
+: 1618829802:0;systemctl status alsa-restore.service
+: 1618829809:0;systemctl status alsa-satte.service
+: 1618829813:0;systemctl status alsa-state.service
+: 1618830553:0;lf
+: 1618830872:0;vim .config/picom.conf
+: 1618831022:0;lf /home/meetcw/.config/obs-studio/basic/profiles/
+: 1618831321:0;pacman -S h
+: 1618831324:0;pacman -Sh
+: 1618831339:0;sudo pacman -Syu
+: 1618831378:0;paru -Qua
+: 1618831384:0;paru -Qu
+: 1618831394:0;paru -Qh
+: 1618831413:0;paru -Qa
+: 1618831486:0;pacman -Q
+: 1618831489:0;pacman -Q -h
+: 1618831497:0;pacman -Q -e
+: 1618832916:0;sudo pacman -Syu
+: 1618833368:0;alsamixer
+: 1618833481:0;sudo pacman -S pamixer
+: 1618833501:0;pamixer
+: 1618833506:0;pamixer --get-volume
+: 1618833522:0;pamixer -i
+: 1618833563:0;pamixer --get-volume-human
+: 1618833664:0;pamixer -i 10
+: 1618833666:0;pamixer --get-volume-human
+: 1618834284:0;pamixer --get-mute
+: 1618834292:0;pamixer -t
+: 1618834454:0;awmtt start
+: 1618834466:0;git status
+: 1618834474:0;git add .
+: 1618834476:0;git commit -m "."
+: 1618835173:0;awmtt restart
+: 1618835196:0;awmtt start
+: 1618835209:0;pamixer -i 10
+: 1618835258:0;pamixer -d 10
+: 1618835248:3;awmtt start
+: 1618835586:0;pamixer -h
+: 1618835590:0;pamixer --get-mute
+: 1618835610:2;awmtt start
+: 1618835833:0;pamixer --get-mute
+: 1618835879:0;awmtt start
+: 1618836780:0;sudo pacman -Rsn ranger
+: 1618836796:0;lf
+: 1618841837:0;cargo build
+: 1618845251:0;vim /etc/default/grub
+: 1618847185:0;cargo build
+: 1618849796:0;lf
+: 1618850900:0;xev
+: 1618851068:0;systemctl --user status clash.service
+: 1618851085:0;systemctl --user restart clash.service
+: 1618851263:0;lf
+: 1618851472:0;man lf
+: 1618851667:0;lf
+: 1618852132:0;cd ~
+: 1618852137:0;ls -a=l
+: 1618852139:0;ls -l
+: 1618852154:0;rm zshrc
+: 1618852161:0;ls-l
+: 1618852163:0;ls -l
+: 1618852184:0;rm zshrc
+: 1618852193:0;ls
+: 1618852196:0;ls -l
+: 1618852204:0;lf
+: 1618852727:0;ls -l
+: 1618852738:0;lf
+: 1618852774:0;ls -l
+: 1618852839:0;lf
+: 1618909755:0;pacman -Ss droid
+: 1618909767:0;pacman -Ss Droid
+: 1618909817:0;fc-list|grep "Droid" 
+: 1618909869:0;sudo pacman -S ttf-droid
+: 1618909879:0;fc-list|grep "Droid" 
+: 1618909895:0;sudo pacman -Rsn ttf-droid
+: 1618910941:0;emacs
+: 1618910947:0;e
+: 1618912404:0;cargo build
+: 1618912979:0;pacman -Ss you-get
+: 1618913237:0;sudo pacman -Ss you-get
+: 1618913241:0;pacman -Ss you-get
+: 1618913246:0;pacman -Ss youtube-dl
+: 1618913252:0;sudo pacman -S youtube-dl
+: 1618913361:0;youtube-dl https://v.qq.com/x/cover/mzc0020007atu7d/k3240k69egt.html
+: 1618913397:0;youtube-dl https://www.iqiyi.com/v_wu9wftmpq4.html\?vfrm\=pcw_home\&vfrmblk\=CW\&vfrmrst\=812211_wdljxk_image2\&r_area\=rec_you_like\&r_source\=128%40230\&bkt\=MBA_PW_T3_87\&e\=efbecea6c14cbcd1675de2ff8b006635\&stype\=2
+: 1618913419:0;youtube-dl https://www.iqiyi.com/v_1cg1c93k8m8.html\?vfrm\=pcw_home\&vfrmblk\=O\&vfrmrst\=711219_home_dianshiju_float_video_area2
+: 1618913432:0;sudo pacman -Rsn youtube-dl
+: 1618919447:0;paru -Qua
+: 1618920175:0;cd ~/.cache
+: 1618920176:0;ls
+: 1618920184:0;cd yesplaymusic-updater
+: 1618920185:0;lf
+: 1618920564:0;cd /tmp
+: 1618920565:0;lf
+: 1618920583:0;cd ~
+: 1618920656:0;lf
+: 1618920668:0;cd .local
+: 1618920669:0;lf
+: 1618920777:0;pacman -Ss space fm
+: 1618920779:0;pacman -Ss space
+: 1618920788:0;pacman -Ss space file manager
+: 1618920792:0;pacman -Ss file manager
+: 1618920994:0;sudo pacman -S thunar
+: 1618921300:0;sudo pacman -Rsn thunar
+: 1618921548:0;pacman -Ss spacefm
+: 1618921619:0;pacman -Ss rox
+: 1618921627:0;pacman -Ss rox file
+: 1618921637:0;sudo pacman -S rox
+: 1618921749:0;sudo pacman -Rsn rox
+: 1618922400:0;pacman -Ss xfe
+: 1618922404:0;pacman -Ss polo
+: 1618922422:0;pacman -Ss file manager
+: 1618922520:0;xprop
+: 1618922648:0;xprop|grep TYPE
+: 1618922687:0;cd ..
+: 1618922918:0;xprop
+: 1618923564:0;ln -h
+: 1618923567:0;ln --help
+: 1618924041:0;cargo build
+: 1618930801:0;xprop
+: 1618931501:0;e
+: 1618931830:0;paru wechat-uos
+: 1618932095:0;paru -Rsn wechat-uos
+: 1618935302:0;cargo build
+: 1618938172:0;lf
+: 1618938507:0;ls
+: 1618938509:0;ls -al
+: 1618938512:0;ls -l
+: 1618938517:0;cat abc
+: 1618938539:0;lf
+: 1618938871:0;cat abc
+: 1618938873:0;ls
+: 1618938877:0;cat abc
+: 1618938879:0;lf
+: 1618938892:0;ls -l
+: 1618938898:0;cat ../Projects/idot/tests/resources/global_options.json
+: 1618939015:0;cat Projects/idot/tests/resources/global_options.json
+: 1618939680:0;lf
+: 1618939686:0;ls -l
+: 1618939689:0;cat abc
+: 1618939742:0;lf
+: 1618940097:0;pacman -Ss kakoune
+: 1618940103:0;pacman -S kakoune
+: 1618940106:0;sudo pacman -S kakoune
+: 1618940111:0;kak
+: 1619003715:0;sudo pacman -Ss yout-get
+: 1619003719:0;sudo pacman -S yout-get
+: 1619003722:0;sudo pacman -S you-get
+: 1619003773:0;you-get -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h.html
+: 1619003807:0;you-get -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/l00338p3bvr.html
+: 1619003824:0;you-get -h
+: 1619003945:0;you-get -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/l00338p3bvr.html
+: 1619003949:0;you-get -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h.html
+: 1619004057:0;you-get -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004205:0;you-get -i -c "RK=4WZAqNJve3; ptcz=76c6002843584cd4f971bfb38e0690f795bd1ee1256becc76ed7ad1a71bcb83a; pgg_uid=337732392; pgg_appid=101503919; pgg_openid=00D37A49939B3FA25AEC165BC17D9B24; pgg_access_token=4538582481F0574AAB85D2808F901D6C; pgg_type=1; pgg_user_type=5; tvfe_boss_uuid=aa7c9f9389d2a7e3; video_guid=fec6f35dc8cbd19a; video_platform=2; pgv_pvid=4070173381; bucket_id=9231001; tvfe_search_uid=7f2a85e9-2fad-41b4-8a75-fe81182b7dd8; txv_boss_uuid=5bec1818-a19a-cf5b-b63a-7bfb946711ce; login_remember=qq; main_login=qq; vqq_vuserid=494860817; vqq_vusession=5LUgvYft-fhD4lsV2nYRMw..; vqq_access_token=AD8E709B18531C07D2D49DA8F3450574; vqq_openid=BAEEA9A7D8F1CF3327A6A16772A5FD72; vqq_appid=101483052; qq_nick=æƒ´¾é£ƒ¾æƒ‚¦æƒ£³; qq_head=http://thirdqq.qlogo.cn/g?b=oidb&k=jGfc0qNplyBhdtLQfqmIFg&s=140&t=1556458118; lw_nick=æƒ´¾é£ƒ¾æƒ‚¦æƒ£³|0|http://thirdqq.qlogo.cn/g\?b\=oidb\&k\=jGfc0qNplyBhdtLQfqmIFg\&s\=140\&t\=1556458118\|0\; uid=7910810; ad_play_index=28; ptag=www_google_com_hk|videolist:click" https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004456:0;cd .config/google-chrome/Default
+: 1619004456:0;ls
+: 1619004610:0;paru -S annie
+: 1619004693:0;vim cookies.txt
+: 1619004713:0;annie -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004722:0;annie -c ./cookies.txt -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004802:0;you-get -c ./cookies.txt -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004814:0;you-get -h
+: 1619004828:0;you-get -c ./cookies.txt -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004832:0;you-get -c ./cookies.txt https://v.qq.com/x/cover/j6b8z5urtg2wj5h/m0033oi1om6.html
+: 1619004855:0;annie -c ./cookies.txt -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/q00337bxu1h.html
+: 1619005026:0;annie -c ./cookies.txt -f fhd https://v.qq.com/x/cover/j6b8z5urtg2wj5h/q00337bxu1h.html
+: 1619005214:0;sudo pacman -S mpv
+: 1619005316:0;lf
+: 1619005403:0;annie -c ./cookies.txt -i https://v.qq.com/x/cover/j6b8z5urtg2wj5h/q003301lb22.html
+: 1619005519:0;mpv å°ƒ¦å¤ƒ¼2_20.mp4
+: 1619005556:0;annie -c ./cookies.txt -n 30 -f fhd https://v.qq.com/x/cover/j6b8z5urtg2wj5h/q003301lb22.html
+: 1619005690:0;lf
+: 1619007362:0;pacman -Rsn annie you-get
+: 1619007363:0;sudo pacman -Rsn annie you-get
+: 1619008467:0;xdg-open
+: 1619008477:0;xdg-open http://baidu.com
+: 1619009686:0;pacman -Ss thour
+: 1619009705:0;pacman -Ss thunar
+: 1619009717:0;pacman -Ss thunar trash
+: 1619009743:0;pacman -Ss thunar
+: 1619009810:0;lf
+: 1619009877:0;cat ./a
+: 1619009880:0;cat ./abc
+: 1619009883:0;lf
+: 1619013703:0;cargo build
+: 1619013731:0;./target/debug/idot
+: 1619013734:0;./target/debug/idot -h
+: 1619013772:0;stow --help
+: 1619013909:0;cargo build
+: 1619013913:0;./target/debug/idot -h
+: 1619013962:0;lf
+: 1619013990:0;ln -s bcd acb
+: 1619013992:0;ls
+: 1619013994:0;lf
+: 1619014008:0;ln -s bcd  abc
+: 1619014024:0;ln -s abc aaa
+: 1619014025:0;lf
+: 1619020520:0;sudo pacman -S sudo pacman -Sy libheif
+: 1619020527:0;sudo pacman -Sy libheif
+: 1619020544:0;ls
+: 1619020550:0;heif-convert -h
+: 1619020573:0;heif-convert -q 100 ./Mountain.heic
+: 1619020585:0;heif-convert -q 100 ./Mountain.heic ./Mountain
+: 1619020589:0;heif-convert -q 100 ./Mountain.heic ./Mountain.png
+: 1619020609:0;heif-convert ./Mountain.heic ./Mountain.png
+: 1619020614:0;heif-convert ./Mountain.heic ./Mountain.jpg
+: 1619020618:0;lf
+: 1619021066:0;sudo pacman -Rsn libheif
+: 1619021095:0;pacman -Qs gd
+: 1619021206:0;lf
+: 1619022617:0;heif-convert ./Fedora\ Wallpaper.heic fedora.png
+: 1619022623:0;lf
+: 1619023131:0;git add .
+: 1619023133:0;git commit -m "."
+: 1619023484:0;cargo build
+: 1619023761:0;./target/debug/idot -h
+: 1619023778:0;cargo build
+: 1619023779:0;./target/debug/idot -h
+: 1619023790:0;cargo build
+: 1619023879:0;./target/debug/idot -h
+: 1619023953:0;cargo build
+: 1619023955:0;./target/debug/idot -h
+: 1619024147:0;cargo build
+: 1619024148:0;./target/debug/idot -h
+: 1619024445:0;./target/debug/idot aaa
+: 1619024448:0;./target/debug/idot bb
+: 1619024451:0;./target/debug/idot -i
+: 1619024454:0;./target/debug/idot -iasdasd
+: 1619024461:0;./target/debug/idot -i asdasd
+: 1619024489:0;cargo build
+: 1619024491:0;./target/debug/idot -i asdasd
+: 1619024506:0;./target/debug/idot asdasd
+: 1619024662:0;./target/debug/idot -i asdasd
+: 1619024665:0;cargo build
+: 1619024667:0;./target/debug/idot -i asdasd
+: 1619029347:0;cargo build
+: 1619085290:0;paru -Ss yes
+: 1619085295:0;paru -Ss yes muisc
+: 1619085299:0;paru -Ss yes music
+: 1619085317:0;sudo paru -S yesplaymusic
+: 1619085326:0;paru -S yesplaymusic
+: 1619085424:0;pacman -Rsn yesplaymusic-appimage
+: 1619085425:0;sudo pacman -Rsn yesplaymusic-appimage
+: 1619085429:0;paru -S yesplaymusic
+: 1619086178:0;pacman -Ss dbus
+: 1619086246:0;playerctl play-pause
+: 1619086310:0;pacman -Ss Playerctl
+: 1619086319:0;sudo pacman -S playerctl
+: 1619086333:0;playerctl next
+: 1619086352:0;playerctl -h
+: 1619086364:0;playerctl status
+: 1619086380:0;playerctl metadata title
+: 1619086387:0;playerctl metadata
+: 1619086416:0;sudo pacman -Rsn playerctl
+: 1619086783:0;sudo pacman -S playerctl
+: 1619086789:0;playerctl metadata
+: 1619086795:0;playerctl
+: 1619086807:0;playerctl -a
+: 1619086830:0;playerctl --all-players status
+: 1619086845:0;playerctl -l
+: 1619086863:0;playerctl -a metadata
+: 1619086876:0;playerctl -a position
+: 1619086883:0;playerctl position
+: 1619086887:0;playerctl -a position
+: 1619086932:0;pacman -Rsn playerctl
+: 1619086933:0;sudo pacman -Rsn playerctl
+: 1619089645:0;kill 499
+: 1619089666:0;picom
+: 1619090886:0;cargo build
+: 1619095695:0;./target/debug/idot -i asdasd
+: 1619095697:0;./target/debug/idot
+: 1619096201:0;vim .config/picom.conf
+: 1619096221:0;./target/debug/idot
+: 1619096223:0;picom
+: 1619096591:0;vim .config/picom.conf
+: 1619096625:0;picom
+: 1619096798:0;pacman -Qs nvidia
+: 1619096813:0;nvidia-xconfig
+: 1619096837:0;pacman -Ss nvidia
+: 1619096861:0;pacman -Ss flicker
+: 1619096872:0;pacman -Ss nvidia-settings
+: 1619096879:0;sudo pacman -S nvidia-settings
+: 1619096936:0;picom
+: 1619097073:0;picom &
+: 1619097342:0;cargo build
+: 1619097346:0;./target/debug/idot
+: 1619097353:0;./target/debug/idot install
+: 1619097357:0;./target/debug/idot install -h
+: 1619099140:0;cargo build
+: 1619099152:0;cargo clean
+: 1619099154:0;cargo build
+: 1619099262:0;htop
+: 1619099279:0;cargo build
+: 1619099339:0;pkill rls
+: 1619099340:0;cargo build
+: 1619099458:0;./target/debug/idot
+: 1619099545:0;cargo build
+: 1619099547:0;./target/debug/idot
+: 1619099731:0;cargo build
+: 1619099734:0;./target/debug/idot
+: 1619099834:0;cargo build
+: 1619099836:0;./target/debug/idot
+: 1619099852:0;cargo build
+: 1619099854:0;./target/debug/idot
+: 1619099873:0;cargo clean
+: 1619099876:0;cargo build
+: 1619099908:0;./target/debug/idot
+: 1619100330:0;cargo build
+: 1619100333:0;./target/debug/idot
+: 1619100348:0;cargo build
+: 1619100353:0;./target/debug/idot
+: 1619100509:0;cargo build
+: 1619100511:0;./target/debug/idot
+: 1619100544:0;cargo build
+: 1619100546:0;./target/debug/idot
+: 1619100557:0;cargo build
+: 1619100559:0;./target/debug/idot
+: 1619100996:0;cargo build
+: 1619101091:0;cargo clean
+: 1619101112:0;cargo build
+: 1619101235:0;./target/debug/idot
+: 1619101281:0;cargo build
+: 1619101285:0;./target/debug/idot --debug
+: 1619101294:0;./target/debug/idot --debug install
+: 1619103228:0;picom
+: 1619103621:0;cargo build
+: 1619104277:0;./target/debug/idot --help
+: 1619104280:0;./target/debug/idot onstall --help
+: 1619104283:0;./target/debug/idot install --help
+: 1619104528:0;cargo build
+: 1619104947:0;./target/debug/idot install -l abc:def ddd:aaa:zzz
+: 1619104955:0;./target/debug/idot install -l abc:def ddd:aaa:zzz hah
+: 1619104973:0;./target/debug/idot --debug install -l abc:def ddd:aaa:zzz hah
+: 1619105687:0;cargo build
+: 1619105705:0;./target/debug/idot --debug install -h
+: 1619107319:0;cargo test AAA -- --nocapture
+: 1619107654:0;ln -h
+: 1619107658:0;ln --help
+: 1619108352:0;pacman -Ss jetbrains
+: 1619108458:0;paru -Ss jetbrains
+: 1619108486:0;pacman -S openjdk
+: 1619108488:0;pacman -Ss openjdk
+: 1619108492:0;pacman -Qs openjdk
+: 1619108495:0;pacman -Qs jdk
+: 1619108530:0;sudo pacman -Ss jdk-openjdk jdk8-openjdk
+: 1619108535:0;sudo pacman -S jdk-openjdk jdk8-openjdk
+: 1619108637:0;archlinux-java
+: 1619108639:0;archlinux-java status
+: 1619108819:0;bat /usr/share/applications/java-java-openjdk.desktop 
+: 1619108854:0;bat /usr/share/applications/jconsole-java-openjdk.desktop
+: 1619108873:0;_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=setting' jconsole
+: 1619108918:0;JAVA_FONTS=/usr/share/fonts/TTF jconsole
+: 1619108988:0;paru -Ss idea
+: 1619109008:0;paru -S intellij-idea-ultimate-edition
+: 1619109062:0;ln -f
+: 1619109065:0;ln -h
+: 1619109067:0;ln
+: 1619109070:0;ln --help
+: 1619109293:0;cargo build
+: 1619109655:0;htop
+: 1619111451:0;which emacs
+: 1619113513:0;cargo build
+: 1619115322:0;vim .xprofile
+: 1619115373:0;cargo build
+: 1619116491:0;xcolor
+: 1619117481:0;htop
+: 1619117608:0;sudo pacman -Rsn obs-studio 
+: 1619170739:0;cargo build
+: 1619190274:0;ln --help
+: 1619194556:0;cargo build
+: 1619194563:0;cargo install .
+: 1619194570:0;cargo install idot
+: 1619195611:0;cargo install -h
+: 1619195640:0;cargo install -- .
+: 1619195647:0;cargo install -- 
+: 1619195649:0;cargo install
+: 1619195656:0;cargo install -- idot
+: 1619195661:0;cargo install -- ./
+: 1619195668:0;cargo install -- *
+: 1619195747:0;idot
+: 1619195752:0;cargo install
+: 1619195754:0;cargo install -h
+: 1619195791:0;cargo install --path .
+: 1619197209:0;lf
+: 1619202316:0;ln --help
+: 1619203589:0;cargo install --path .
+: 1619203596:0;idot 
+: 1619203609:0;echo $path
+: 1619203628:0;vim .xprofile
+: 1619203641:0;vim .zshrc
+: 1619203657:0;vim .xprofile
+: 1619203682:0;lf
+: 1619203686:0;vim .xprofile
+: 1619203695:0;idot 
+: 1619203698:0;lf
+: 1619203709:0;source .xprofile
+: 1619203715:0;idot
+: 1619203730:0;lf
+: 1619203775:0;vim foo
+: 1619203788:0;vim bar
+: 1619203798:0;idot 
+: 1619203801:0;idot install
+: 1619203951:0;cargo install --path .
+: 1619203960:0;idot install
+: 1619204324:0;idot install -l ~/foo:./foo
+: 1619204332:0;lf
+: 1619204351:0;idot uninstall -l ~/foo:./foo
+: 1619204419:0;cargo install --path .
+: 1619204428:0;idot uninstall -l ~/foo:./foo
+: 1619204616:0;cargo install --path .
+: 1619254380:0;lf
+: 1619259680:0;pacman -Ss dejavu
+: 1619259919:0;fc-list|grep "wyq"
+: 1619259921:0;fc-list|grep "wy"
+: 1619259926:0;fc-list|grep "Wen"
+: 1619260227:0;fc-list|grep "Noto"
+: 1619260235:0;fc-list|grep "Noto CJK"
+: 1619260241:0;fc-list|grep "Noto .* CJK"
+: 1619260921:0;pacman -Ss Deja Vu
+: 1619260963:0;pacman -Ss Droid
+: 1619260978:0;sudo pacman -S ttf-droid
+: 1619260988:0;fc-list|grep "Droid"
+: 1619260999:0;sudo pacman -Rsn ttf-droid
+: 1619261255:0;pacman -Ss ckj
+: 1619261257:0;pacman -Ss cjk
+: 1619261513:0;pacman -S Source Han
+: 1619261516:0;pacman -Ss Source Han
+: 1619261522:0;pacman -Ss Source Han cjk
+: 1619261569:0;pacman -Ss Source Code
+: 1619261573:0;pacman -Ss Source Code pro
+: 1619261579:0;pacman -Ss Source Han cjk
+: 1619261587:0;sudo pacman -S adobe-source-han-sans-otc-fonts
+: 1619261633:0;fc-list|grep "Source Code"
+: 1619261638:0;fc-list|grep "Source Han"
+: 1619261706:0;fc-list|grep "Source Han Mono"
+: 1619261712:0;fc-list|grep "Source .* Mono"
+: 1619261717:0;fc-list|grep "Source.*Mono"
+: 1619261720:0;fc-list|grep "Source"
+: 1619262440:0;sudo pacman -Rsn adobe-source-han-sans-otc-fonts
+: 1619262554:0;pacman -Ss Ubuntu Mono
+: 1619262559:0;pacman -Ss Ubuntu
+: 1619262571:0;sudo pacman -S ttf-ubuntu-font-family 
+: 1619271328:0;cargo install --path .
+: 1619271344:0;idot uninstall -l ~/foo:./foo
+: 1619271438:0;idot
+: 1619271443:0;echo $path
+: 1619271454:0;vim .xprofile
+: 1619271470:0;idot
+: 1619271472:0;vim .xprofile
+: 1619271484:0;source .xprofile
+: 1619271488:0;idot
+: 1619271493:0;idot uninstall -l ~/foo:./foo
+: 1619271498:0;idot uninstall -t ~/foo:./foo
+: 1619271501:0;lf
+: 1619271509:0;idot uninstall -t ~/
+: 1619271511:0;lf
+: 1619271837:0;idot uninstall -t ~/  --debug
+: 1619271844:0;idot --debug uninstall -t ~/ 
+: 1619272368:0;pacman -Qs xfce
+: 1619272388:0;pacman -Qs thunar
+: 1619272402:0;sudo pacman -Rsn thunar
+: 1619272524:0;neofetch
+: 1619272662:0;pacman -Ss qtfm
+: 1619272681:0;paru -Ss qtfm
+: 1619272692:0;paru -S qtfm
+: 1619273263:0;pacman -Ss Sunflower
+: 1619273267:0;paru -Ss Sunflower
+: 1619273282:0;paru -Ss qtfm
+: 1619273292:0;paru -S sunflower
+: 1619273397:0;paru -Rsn sunflower qtfm
+: 1619273564:0;paru -Ss file manager
+: 1619273710:0;paru -Ss PathFinder
+: 1619273727:0;paru -Ss Gentoo
+: 1619273743:0;pacman -S gentoo
+: 1619273750:0;paru -S gentoo
+: 1619273839:0;gentoo
+: 1619273855:0;paru -Rsn gentoo
+: 1619273881:0;pacman -Ss polo
+: 1619273888:0;paru -Ss polo
+: 1619273995:0;lf /
+: 1619274037:0;xset -h
+: 1619274081:0;vim /usr/share/applications/lf.desktop
+: 1619274166:0;xdg-mime default
+: 1619274169:0;xdg-mime --help
+: 1619274188:0;xdg-mime query inode/directory
+: 1619274200:0;xdg-mime query default
+: 1619274211:0;xdg-mime query default inode/directory
+: 1619274220:0;vim .config/mimeapps.list
+: 1619274390:0;ls -l /usr/share/mime/packages/
+: 1619274411:0;bat /usr/share/mime/packages/visual-studio-code-bin-workspace.xml
+: 1619274480:0;bat /etc/xdg/mimeapps.list
+: 1619274492:0;bat /usr/local/share/applications/mimeapps.list
+: 1619274502:0;bat /usr/share/applications/mimeapps.list
+: 1619274532:0;xdg-mime query default inode/directory
+: 1619274535:0;xdg-mime query
+: 1619274538:0;xdg-mime --help
+: 1619274578:0;bat .config/mimeapps.list
+: 1619274599:0;xdg-mime default lf.desktop inode/directory
+: 1619274632:0;bat .config/mimeapps.list
+: 1619274657:0;xdg-mime query default inode/directory
+: 1619274669:0;xdg-mime query default
+: 1619274674:0;xdg-mime --help
+: 1619274724:0;sudo vim /usr/share/applications/lf.desktop
+: 1619274760:0;xdg-mime default lf.desktop application/x-directory
+: 1619274775:0;vim .config/mimeapps.list
+: 1619274786:0;xdg-mime query default inode/directory
+: 1619274793:0;xdg-mime query default application/x-directory
+: 1619274802:0;sudo vim /usr/share/applications/lf.desktop
+: 1619274811:0;xdg-mime query default application/x-directory
+: 1619274869:0;xdg-settings --help
+: 1619274879:0;xdg-settings  --list
+: 1619275015:0;mimetype
+: 1619275031:0;xdg-open ./
+: 1619275040:0;xdg-open --help
+: 1619275053:0;xdg-mime ./
+: 1619275057:0;xdg-mime --help
+: 1619275066:0;xdg-mime query ./
+: 1619275068:0;xdg-mime query ~
+: 1619275073:0;xdg-mime query theme.el
+: 1619275103:0;xdg-mime query filetype /
+: 1619275106:0;xdg-mime query filetype ~
+: 1619275110:0;xdg-mime query filetype foo
+: 1619275195:0;idot --debug uninstall -t ~/ 
+: 1619275206:0;vim .zshrc
+: 1619275221:0;vim .xprofile
+: 1619275254:0;cd $HOME/.cargo/bin
+: 1619275256:0;ls
+: 1619275261:0;src
+: 1619275263:0;./src
+: 1619275303:0;cat .Xresources
+: 1619275306:0;cat .xinitrc
+: 1619275308:0;:wq
+: 1619275420:0;idot
+: 1619275423:0;idot --debug uninstall -t ~/ 
+: 1619275448:0;idot --debug uninstall 
+: 1619277181:0;pacman -Ss light-locer
+: 1619277184:0;pacman -Ss light-locker
+: 1619277208:0;light-locker-settings
+: 1619277222:0;paru -Ss light-locker-settings
+: 1619277230:0;pacman -Ss light-locker-settings
+: 1619277234:0;paru -S light-locker-settings
+: 1619277284:0;lf
+: 1619277346:0;dpms
+: 1619277359:0;bat .zsh_history
+: 1619277470:0;dm-tool --help
+: 1619277514:0;dm-tool list-seats
+: 1619277673:0;xset -h
+: 1619277695:0;bat .zsh_history
+: 1619277718:0;xset -h
+: 1619277722:0;xset -q
+: 1619277731:0;xset -h
+: 1619277745:0;xset s 3600 3600
+: 1619277747:0;xset -h
+: 1619277750:0;xset q
+: 1619277849:0;lf
+: 1619279193:0;cargo install --path .
+: 1619279209:0;idot --debug uninstall -f
+: 1619279399:0;idot --debug uninstall -h
+: 1619279406:0;idot --debug uninstall --force
+: 1619279412:0;idot --debug uninstall --force true
+: 1619279428:0;idot uninstall --force true
+: 1619279431:0;cargo install --path .
+: 1619279437:0;idot uninstall --force true
+: 1619279441:0;idot uninstall --force
+: 1619279444:0;idot uninstall --force true
+: 1619279533:0;cargo install --path .
+: 1619279537:0;idot uninstall --force true
+: 1619279544:0;idot uninstall --force
+: 1619284130:0;cargo install --path .
+: 1619284141:0;idot uninstall -h
+: 1619284191:0;cargo install --path .
+: 1619284201:0;idot uninstall -h
+: 1619284204:0;idot -h
+: 1619284210:0;idot install
+: 1619284212:0;idot install -h
+: 1619284474:0;cargo install --path .
+: 1619284480:0;idot install -h
+: 1619284490:0;idot install .
+: 1619284530:0;cargo install --path .
+: 1619284537:0;idot install .
+: 1619284543:0;idot install
+: 1619285081:0;idot install --debug
+: 1619285084:0;idot install . --debug
+: 1619285089:0;idot install -h
+: 1619285097:0;cargo install --path .
+: 1619285103:0;idot install -h
+: 1619285113:0;idot install --debug .
+: 1619285143:0;cargo install --path .
+: 1619285147:0;idot install --debug .
+: 1619285180:0;cargo install --path .
+: 1619285184:0;idot install --debug -- .
+: 1619285188:0;idot install --debug -s .
+: 1619285193:0;idot install -d -s .
+: 1619285263:0;idot install -d -s 
+: 1619285284:0;lf
+: 1619285317:0;idot install -d -s
+: 1619285320:0;idot install -d
+: 1619285322:0;idot install -d .
+: 1619285809:0;cargo install --path .
+: 1619285818:0;idot install -d .
+: 1619286032:0;cargo install --path .
+: 1619286036:0;idot install -d .
+: 1619286573:0;cargo install --path .
+: 1619286597:0;vim idot.toml
+: 1619286867:0;vim idot.json
+: 1619286885:0;code idot.json
+: 1619286965:0;cargo install --path .
+: 1619287195:0;idot install -d .
+: 1619287219:0;idot install -d 
+: 1619287237:0;lf
+: 1619287262:0;idot install -d .
+: 1619287312:0;cargo install --path .
+: 1619287320:0;idot install -d .
+: 1619287325:0;lf
+: 1619287333:0;idot install -d .
+: 1619287377:0;stow .
+: 1619287380:0;lf
+: 1619287385:0;stow -asda
+: 1619287463:0;idot uninstall -d .
+: 1619287692:0;cargo install --path .
+: 1619287700:0;idot uninstall -d .
+: 1619287731:0;cargo install --path .
+: 1619287740:0;idot uninstall -d .
+: 1619287772:0;idot install -d .
+: 1619287777:0;lf
+: 1619287784:0;idot uninstall -d .
+: 1619289327:0;cargo install --path .
+: 1619289342:0;idot uninstall -d .
+: 1619289346:0;idot install -d .
+: 1619289349:0;idot uninstall -d .
+: 1619289486:0;cargo install --path .
+: 1619289496:0;idot install -d .
+: 1619289499:0;lf
+: 1619289519:0;ln -s ~/Projects/emacs.d foo
+: 1619289522:0;lf
+: 1619289539:0;idot uninstall -d .
+: 1619289562:0;cargo install --path .
+: 1619289566:0;lf
+: 1619289584:0;touch foo
+: 1619289588:0;lf
+: 1619289593:0;cargo install --path .
+: 1619289600:0;idot uninstall -d .
+: 1619289643:0;cargo install --path .
+: 1619289654:0;idot uninstall -d .
+: 1619289689:0;cargo install --path .
+: 1619289754:0;idot uninstall -d .
+: 1619289785:0;cargo install --path .
+: 1619289787:0;idot uninstall -d .
+: 1619349551:0;xset q
+: 1619349749:0;lf
+: 1619349774:0;neofetch
+: 1619350844:0;lf
+: 1619350847:0;neofetch
+: 1619356435:0;pacman -S polo
+: 1619356437:0;pacman -Ss polo
+: 1619356442:0;paru -Ss polo
+: 1619373374:0;vim .gtkrc-2.0
+: 1619373390:0;vim .config/gtk-3.0/settings.ini
+: 1619374099:0;google-chrome-stable --enable-features=WebUIDarkMode --force-dark-mode
+: 1619374118:0;google-chrome-stable --enable-features=WebUIDarkMode
+: 1619374208:0;google-chrome-stable --enable-features=WebUIDarkMode --force-dark-mode
+: 1619374248:0;google-chrome-stable --force-dark-mode
+: 1619374328:0;google-chrome-stable --enable-features=WebUIDarkMode --force-dark-mode
+: 1619376003:0;lf
+: 1619376069:0;vim google-chrome.desktop
+: 1619376148:0;lf
+: 1619376156:0;vim .gtkrc-2.0
+: 1619376163:0;vim .config/gtk-3.0/settings.ini
+: 1619428761:0;xset q
+: 1619428837:0;sudo vim /etc/default/grub
+: 1619428885:0;grub-mkconfig -o /boot/grub/grub.cfg
+: 1619428887:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1619436858:0;lf
+: 1619437357:0;cargo install --path .
+: 1619437363:0;lf
+: 1619437373:0;idot uninstall -d .
+: 1619437381:0;idot uninstall -d . -f
+: 1619437386:0;idot uninstall -d -f .
+: 1619437485:0;idot install -d -f .
+: 1619437490:0;idot install -d .
+: 1619437900:0;lf
+: 1619437928:0;idot uninstall -d .
+: 1619437938:0;lf
+: 1619438251:0;stow --help
+: 1619439099:0;idot install -d -f .
+: 1619439103:0;cargo install --path .
+: 1619439111:0;idot install -d -f .
+: 1619439304:0;cargo install --path .
+: 1619439310:0;idot install -d -f .
+: 1619439586:0;cargo install --path .
+: 1619439594:0;idot install -d -f .
+: 1619439679:0;lf
+: 1619439693:0;idot uninstall -d -f .
+: 1619439890:0;lf
+: 1619439898:0;idot uninstall -d -f .
+: 1619440797:0;paru -Qua
+: 1619440807:0;paru -S yesplaymusic
+: 1619442141:0;dbus-send --help
+: 1619442182:0;dbus-test-tool
+: 1619442211:0;pacman -Ss d-feet
+: 1619442218:0;pacman -Ss dbus debugger
+: 1619442222:0;pacman -Ss dbus
+: 1619442282:0;pacman -Ss dbus|grep dbus
+: 1619442304:0;pacman -S d-feet
+: 1619442305:0;sudo pacman -S d-feet
+: 1619442495:0;sudo pacman -S playerctl
+: 1619442505:0;playerctl -h
+: 1619442515:0;playerctl pause
+: 1619442519:0;playerctl play
+: 1619442538:0;playerctl --all-players
+: 1619442558:0;playerctl -l
+: 1619442894:0;playerctl -h
+: 1619442904:0;playerctl play-pause
+: 1619442936:0;playerctl status
+: 1619442954:0;playerctl -a
+: 1619442962:0;playerctl -l
+: 1619443015:0;lf
+: 1619443024:0;chmod +x mpris_player_control
+: 1619443029:0;./mpris_player_control
+: 1619443031:0;./mpris_player_control -h
+: 1619443038:0;./mpris_player_control --help
+: 1619443045:0;./mpris_player_control -l
+: 1619443127:0;./mpris_player_control
+: 1619443461:0;dbus-send --session --print-reply --reply-timeout=-0
+: 1619443633:0;dbus-send --session --print-reply --reply-timeout=-0 --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.freedesktop.DBus.Properties.Get string:"/org/mpris/MediaPlayer2.Player" string:'PlaybackStatus'
+: 1619443703:0;dbus-send --session --print-reply --reply-timeout=-0 --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.freedesktop.DBus.Properties.Get
+: 1619443768:0;dbus-send --session --print-reply --reply-timeout=-0 --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619443783:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619443853:0;dbus-send --session --print-reply --type=method_call --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619444140:0;sudo pacman -Rsn playerctl
+: 1619444151:0;sudo pacman -Rsn d-feet
+: 1619444154:0;dbus-send --session --print-reply --type=method_call --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619444207:0;dbus-send --session --print-reply --type=method_call --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.Seek
+: 1619444254:0;man dbus-send
+: 1619444485:0;dbus-send --session --print-reply --type=method_call --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.[200~
+: 1619444497:0;dbus-send --session --print-reply --type=method_call --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.Seeked
+: 1619444505:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.Seeked
+: 1619444517:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" Seeked
+: 1619444620:0;sudo pacman -S d-feet
+: 1619444926:0;dbus-send --session --print-reply --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBUs.ListNames
+: 1619444994:0;dbus-send --session --print-reply --type="methods" --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBUs.ListNames
+: 1619445000:0;dbus-send --session --print-reply --type="method" --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBUs.ListNames
+: 1619445003:0;man dbus-send
+: 1619445039:0;dbus-send --session --print-reply --type="method_call" --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBUs.ListNames
+: 1619445046:0;dbus-send --session --print-reply --type="method_call" --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBus.ListNames
+: 1619445110:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" Seeked
+: 1619445125:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance41963" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619445147:0;dbus-send --session --print-reply --type="method_call" --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBus.ListNames
+: 1619445160:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance51005" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619445186:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance51005" "/org/mpris/MediaPlayer2" PlayPause
+: 1619445193:0;dbus-send --session --print-reply --dest="org.mpris.MediaPlayer2.chromium.instance51005" "/org/mpris/MediaPlayer2" org.mpris.MediaPlayer2.Player.PlayPause
+: 1619445500:0;dbus-send --system --dest=org.mpris.MediaPlayer2.chromium.instance51005 --print-reply $OBJECT_PATH \\
+org.freedesktop.DBus.Properties.Get string:com.pgaur.GDBUS string:Status
+: 1619445518:0;man dbus-send
+: 1619445589:0;dbus-send --system --dest=org.mpris.MediaPlayer2.chromium.instance51005 --print-reply \\
+org.freedesktop.DBus.Properties.Get string:com.pgaur.GDBUS string:Status
+: 1619445620:0;pacman -Rsn playerctl
+: 1619445621:0;sudo pacman -Rsn playerctl
+: 1619445629:0;sudo pacman -Rsn d-feet
+: 1619445665:0;cargo build
+: 1619449863:0;git status
+: 1619453403:0;cargo install --path .
+: 1619453432:0;lf
+: 1619453444:0;idot status .
+: 1619453466:0;cargo install --path .
+: 1619453473:0;idot status .
+: 1619453475:0;lf
+: 1619453484:0;idot status .
+: 1619453508:0;cargo install --path .
+: 1619453517:0;idot status .
+: 1619454780:0;lf
+: 1619454853:0;vim idot.json
+: 1619455037:0;lf
+: 1619455355:0;cargo run
+: 1619455365:0;cargo run --bin idot
+: 1619455383:0;cargo run --bin=idot --package=idot
+: 1619455528:0;cargo uninstall
+: 1619455539:0;cargo install -h
+: 1619455547:0;cargo install --list
+: 1619455556:0;cargo uninstall src 
+: 1619455564:0;cargo uninstall tests
+: 1619455768:0;cargo new --bin demo
+: 1619455774:0;cargo new --bin rdemo
+: 1619456271:0;rust-analyzer
+: 1619456273:0;lf
+: 1619456301:0;rust-analyzer-linux
+: 1619456314:0;rust-analyzer-linux --help
+: 1619456349:0;lf
+: 1619456357:0;rust-analyzer-linux
+: 1619457115:0;lf
+: 1619457139:0;cargo install --path .
+: 1619457163:0;idot status .
+: 1619457224:0;idot uninstall -d -f .
+: 1619457228:0;idot delete -d -f .
+: 1619457324:0;lf
+: 1619457361:0;vim previewer.sh
+: 1619457450:0;lf
+: 1619457473:0;file -Lb --mine-type -- ./idot.json
+: 1619457498:0;file -Lb --mime-type -- ./idot.json
+: 1619457580:0;lf
+: 1619457609:0;cd ~/.local/bin
+: 1619457610:0;ls
+: 1619457617:0;file -Lb --mime-type -- ./rust-analyzer-linux
+: 1619457622:0;file -Lb --mime-type -- ./lf
+: 1619457722:0;cargo install --path .
+: 1619464709:0;idot status .
+: 1619464713:0;lf
+: 1619464715:0;idot status .
+: 1619464724:0;idot install .
+: 1619464729:0;idot create .
+: 1619464746:0;idot status .
+: 1619464750:0;vim idot.json
+: 1619464785:0;idot status .
+: 1619517689:0;dbus-send --session --print-reply --type="method_call" --dest="org.freedesktop.DBus" "/org/freedesktop/DBus" org.freedesktop.DBus.ListNames
+: 1619520553:0;man dbus-send
+: 1619520712:0;dbus-send --print-reply=literal --dest=org.mpris.MediaPlayer2.chromium.instance51005 /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get string:'org.mpris.MediaPlayer2.Player' string:'Position'
+: 1619520758:0;lf
+: 1619522165:0;pacman -Ss anime
+: 1619522172:0;paru -Ss anime
+: 1619522257:0;bat .zsh_history
+: 1619522261:0;bat ~/.zsh_history
+: 1619522406:0;lf
+: 1619522422:0;pacman -Ss annie
+: 1619522426:0;paru -Ss annie
+: 1619522434:0;paru -S annie
+: 1619522495:0;annie -i https://www.bilibili.com/video/BV1QV411n7Qr\?spm_id_from\=333.851.b_7265636f6d6d656e64.2
+: 1619522504:0;cd ~/Downloads
+: 1619522524:0;annie -f 64 https://www.bilibili.com/video/BV1QV411n7Qr\?spm_id_from\=333.851.b_7265636f6d6d656e64.2
+: 1619522546:0;mpv æ´»åƒª¨ä½ƒ¼åƒ³éƒ½ƒ²å±±åƒ¿ƒ«å¿ƒ€éª¨ï¼ƒ¬é²ƒ¼èƒª±ç¥­èƒ«±çƒ£ƒ¨ï¼åƒ³ªæƒ¼ƒ©ä»€ä¹ƒ¨å²æƒ¼ƒ¨éƒ½ƒ¹å¥½ï¼ƒ¬ä¸ƒ­è¿ƒ§æƒ¸¯è€ä¸€è¾ƒ¨çƒºƒ¤åƒ¥ƒ¨çƒ£ƒ¨ä»¬ï¼ƒ¬ä¸ºäºƒ¦æƒ¨ƒ±ä»¬è´ƒ¿éƒ§ƒ­åƒ©ƒ­èƒƒ¬\ æƒ¤¿ç¥ƒ¶åƒ»½éƒµ¿å®ƒ©.mp4
+: 1619522665:0;pacman -Ss vlc
+: 1619522668:0;sudo pacman -S vlc
+: 1619522678:0;sudo pacman -Sy
+: 1619522680:0;sudo pacman -S vlc
+: 1619522688:0;vlc æ´»åƒª¨ä½ƒ¼åƒ³éƒ½ƒ²å±±åƒ¿ƒ«å¿ƒ€éª¨ï¼ƒ¬é²ƒ¼èƒª±ç¥­èƒ«±çƒ£ƒ¨ï¼åƒ³ªæƒ¼ƒ©ä»€ä¹ƒ¨å²æƒ¼ƒ¨éƒ½ƒ¹å¥½ï¼ƒ¬ä¸ƒ­è¿ƒ§æƒ¸¯è€ä¸€è¾ƒ¨çƒºƒ¤åƒ¥ƒ¨çƒ£ƒ¨ä»¬ï¼ƒ¬ä¸ºäºƒ¦æƒ¨ƒ±ä»¬è´ƒ¿éƒ§ƒ­åƒ©ƒ­èƒƒ¬\ æƒ¤¿ç¥ƒ¶åƒ»½éƒµ¿å®ƒ©.mp4
+: 1619522781:0;pacman -Rsn vlc
+: 1619522782:0;sudo pacman -Rsn vlc
+: 1619524539:0;echo "Hello\taaa"
+: 1619524560:0;echo -e "Hello\taaa"
+: 1619524565:0;echo -h
+: 1619524568:0;echo --help
+: 1619524574:0;man echo
+: 1619526111:0;echo -e -e "1\t1"
+: 1619526118:0;echo -e "-e "1\t1""
+: 1619526123:0;echo -e "-e 1\t1"
+: 1619526144:0;echo "1\t\1"
+: 1619526147:0;echo "1\t1"
+: 1619527936:0;lf
+: 1619532707:0;cargo build
+: 1619534194:0;lf
+: 1619534234:0;idot status .
+: 1619534242:0;cargo install --path .
+: 1619534253:0;idot status .
+: 1619534314:0;cargo install --path .
+: 1619534323:0;idot status .
+: 1619534503:0;cargo install --path .
+: 1619534509:0;idot status .
+: 1619534542:0;cargo install --path .
+: 1619534552:0;idot status .
+: 1619534698:0;idot status
+: 1619534746:0;idot status .
+: 1619535043:0;cargo install --path .
+: 1619535051:0;idot status .
+: 1619535053:0;idot status
+: 1619535074:0;idot status .
+: 1619535883:0;cargo install --path .
+: 1619535906:0;lf
+: 1619535915:0;idot status 
+: 1619535939:0;idot 
+: 1619536056:0;cargo install --path .
+: 1619536067:0;idot 
+: 1619536093:0;idot -d
+: 1619536101:0;idot 
+: 1619536341:0;idot -h
+: 1619536406:0;cargo install --path .
+: 1619536417:0;idot
+: 1619536420:0;idot -h
+: 1619536654:0;cargo install --path .
+: 1619536664:0;idot -h
+: 1619536689:0;cargo install --path .
+: 1619536696:0;idot
+: 1619536699:0;idot -h
+: 1619536753:0;cargo install --path .
+: 1619536762:0;idot -h
+: 1619537449:0;cargo install --path .
+: 1619537472:0;idot -h
+: 1619537569:0;cargo install --path .
+: 1619537572:0;idot -h
+: 1619537627:0;cargo install --path .
+: 1619537636:0;idot -h
+: 1619538063:0;cargo install --path .
+: 1619538069:0;idot -h
+: 1619538517:0;cargo install --path .
+: 1619538546:0;idot -h
+: 1619538578:0;cargo install --path .
+: 1619538581:0;idot -h
+: 1619538595:0;idot create -h
+: 1619538616:0;idot -h
+: 1619538618:0;cargo install --path .
+: 1619538622:0;idot create -h
+: 1619538669:0;cargo install --path .
+: 1619538672:0;idot create -h
+: 1619538696:0;idot -h
+: 1619538748:0;cargo install --path .
+: 1619538752:0;idot -h
+: 1619538765:0;cargo install --path .
+: 1619538768:0;idot -h
+: 1619538826:0;cargo install --path .
+: 1619539250:0;idot
+: 1619539270:0;cargo install --path .
+: 1619539275:0;idot
+: 1619539278:0;idot -d
+: 1619539281:0;idot -d -s
+: 1619539322:0;cargo install --path .
+: 1619539326:0;idot -d -s
+: 1619539333:0;idot create -s
+: 1619539342:0;idot create -h
+: 1619539861:0;cargo install --path .
+: 1619539934:0;idot status
+: 1619539945:0;idot status -d
+: 1619539983:0;cargo install --path .
+: 1619539990:0;idot status
+: 1619539993:0;idot status -d
+: 1619540010:0;idot status
+: 1619540032:0;cargo install --path .
+: 1619540038:0;idot status
+: 1619540042:0;idot create
+: 1619540117:0;cargo install --path .
+: 1619540124:0;idot create
+: 1619540149:0;cargo install --path .
+: 1619540158:0;idot -d
+: 1619540250:0;cargo install --path .
+: 1619540258:0;idot -d
+: 1619540273:0;idot
+: 1619540279:0;idot delete
+: 1619540283:0;idot
+: 1619540342:0;cargo install --path .
+: 1619541183:0;rsutup
+: 1619541186:0;rustup
+: 1619541190:0;rustup show
+: 1619541294:0;cargo install --path .
+: 1619542457:0;idot delete
+: 1619542463:0;idot delete -d
+: 1619543100:0;idot install -s -d
+: 1619543121:0;idot create -s -d
+: 1619543126:0;idot
+: 1619543131:0;cargo install --path .
+: 1619543141:0;idot delete -d
+: 1619543148:0;idot create -s -d
+: 1619543152:0;idot
+: 1619543156:0;idot create -s -d
+: 1619543161:0;idot delete -s -d
+: 1619543172:0;idot create -d
+: 1619543177:0;idot create -s
+: 1619543183:0;idot create
+: 1619543189:0;idot create -f
+: 1619543193:0;idot
+: 1619543198:0;idot delete -s
+: 1619543207:0;lf
+: 1619543216:0;idot delete -s
+: 1619543217:0;idot delete
+: 1619543220:0;idot delete -s
+: 1619543228:0;idot create
+: 1619543232:0;idot delete -s
+: 1619543292:0;cargo install --path .
+: 1619543300:0;idot delete -s
+: 1619543306:0;idot 
+: 1619543312:0;idot delete
+: 1619543315:0;idot 
+: 1619543364:0;cargo install --path .
+: 1619543427:0;idot 
+: 1619543439:0;idot create
+: 1619543441:0;idot 
+: 1619543469:0;cd ..
+: 1619543475:0;idot delete workspace
+: 1619543480:0;lf
+: 1619544275:0;paru -Ss yesplaymusic
+: 1619544446:0;lf
+: 1619544486:0;chmod +x YesPlayMusic-0.3.7.AppImage
+: 1619544489:0;./YesPlayMusic-0.3.7.AppImage
+: 1619544504:0;pacman -Rsn yesplaymusic
+: 1619544505:0;sudo pacman -Rsn yesplaymusic
+: 1619544518:0;paru -S yesplaymusic-appimage
+: 1619544560:0;lf
+: 1619544563:0;./YesPlayMusic-0.3.7.AppImage
+: 1619544598:0;curl http://127.0.0.1:27232/player
+: 1619544633:0;curl http://127.0.0.1:10754/lyric?id=311014
+: 1619544652:0;curl http://127.0.0.1:10754/lyric\?id\=311014
+: 1619544695:0;watch -n 1 curl http://127.0.0.1:27232/player
+: 1619544710:0;watch -n 0.11 curl http://127.0.0.1:27232/player
+: 1619544721:0;watch -n 0.1 curl http://127.0.0.1:27232/player
+: 1619544831:0;curl http://127.0.0.1:27232/player
+: 1619544841:0;curl http://127.0.0.1:10754/lyric\?id\=277766
+: 1619544846:0;curl http://127.0.0.1:10754/lyric\?id\=277766 > 1.json
+: 1619544848:0;lf
+: 1619544854:0;code 1.json
+: 1619545029:0;./YesPlayMusic-0.3.7.AppImage
+: 1619545585:0;echo "# idot" >> README.md
+: 1619545599:0;git status
+: 1619545656:0;git ad .
+: 1619545659:0;git add .
+: 1619545713:0;lf
+: 1619545723:0;tree
+: 1619545730:0;pacman -Ss tree
+: 1619545763:0;sudo pacman -S tree
+: 1619545771:0;tree --help
+: 1619545776:0;tree .
+: 1619545787:0;vim idot.json
+: 1619545904:0;tree .
+: 1619546030:0;vim idot.json
+: 1619546056:0;cat idot.json
+: 1619546222:0;idot status
+: 1619546310:0;idot create
+: 1619546542:0;idot delete
+: 1619546763:0;git status
+: 1619546873:0;cargo build
+: 1619546877:0;git status
+: 1619546879:0;git add .
+: 1619546888:0;git commit -m "first commit"
+: 1619546911:0;git remote add origin https://github.com/meetcw/idot.git
+: 1619546920:0;git push -u origin master
+: 1619547135:0;cargo test
+: 1619547332:0;git pull
+: 1619547357:0;cd ~
+: 1619547358:0;lf
+: 1619547594:0;trash-restore
+: 1619547601:0;lf
+: 1619547670:0;sudo pacman -Ss thunar
+: 1619547674:0;sudo pacman -S thunar
+: 1619547819:0;lf
+: 1619547828:0;idot
+: 1619547833:0;vim idot.yaml
+: 1619547865:0;idot
+: 1619547919:0;idot alacritty
+: 1619547927:0;idot create alacritty
+: 1619548622:0;ls -l ~/.config/flameshot
+: 1619549487:0;idot zsh
+: 1619549519:0;sudo mount /dev/sda2 /mnt
+: 1619549651:0;idot awesome
+: 1619549699:0;idot emacs
+: 1619549819:0;cd ..
+: 1619549841:0;lf -l ~/.emacs.d
+: 1619549847:0;ls -l ~/.emacs.d
+: 1619549857:0;ls -l ~/.config/awesome
+: 1619549872:0;idot alacritty
+: 1619549880:0;idot create alacritty
+: 1619549884:0;idot create alacritty -f
+: 1619549933:0;lf
+: 1619549972:0;ls -l ~/.config/alacritty/alacritty.yml
+: 1619549990:0;cat ~/.config/alacritty/alacritty.yml
+: 1619550128:0;cargo install --path .
+: 1619550142:0;idot create alacritty -f -d
+: 1619550220:0;cargo install --path .
+: 1619550230:0;idot create alacritty -f -d
+: 1619550233:0;idot create alacritty -f 
+: 1619550265:0;cd .config/alacritty/
+: 1619550287:0;cat ../../Projects
+: 1619550306:0;ls ../../
+: 1619550310:0;ls -l ../../
+: 1619550318:0;ls -l ../
+: 1619550334:0;ls -l ../../
+: 1619550352:0;cd ~
+: 1619550368:0;ln -s Projects/dotfile/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+: 1619550373:0;rm .config/alacritty/alacritty.yml
+: 1619550375:0;ln -s Projects/dotfile/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+: 1619550406:0;ls -l ~/.config/alacritty/alacritty.yml
+: 1619550418:0;cat ~/.config/alacritty/alacritty.yml
+: 1619550429:0;ln -s ~/Projects/dotfile/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+: 1619550433:0;rm .config/alacritty/alacritty.yml
+: 1619550435:0;ln -s ~/Projects/dotfile/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+: 1619550442:0;ls -l ~/.config/alacritty/alacritty.yml
+: 1619550460:0;cd ../../
+: 1619550464:0;cd .config/alacritty/
+: 1619550469:0;cd ~
+: 1619550470:0;cd .config/alacritty/
+: 1619550473:0;cd ../../
+: 1619550489:0;rm .config/alacritty/alacritty.yml
+: 1619550500:0;ln -s ../../../Projects/dotfile/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+: 1619550502:0;cat ~/.config/alacritty/alacritty.yml
+: 1619550506:0;rm .config/alacritty/alacritty.yml
+: 1619550554:0;idot create alacritty -f 
+: 1619550572:0;ls -l ~/.config/alacritty/alacritty.yml
+: 1619550586:0;cd .config/alacritty/
+: 1619550588:0;cat ../../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550593:0;cat ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550604:0;pwd
+: 1619550626:0;cat ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550662:0;cd ~/.config/alacritty
+: 1619550694:0;cd ../../
+: 1619550698:0;cd ~/.config/alacritty
+: 1619550727:0;cat ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550763:0;bat ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550770:0;cd ..
+: 1619550786:0;bat ../Projects/dotfile/alacritty/alacritty.yml
+: 1619550793:0;bat ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550798:0;cd alacritty
+: 1619550799:0;bat ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550877:0;vim ../../Projects/dotfile/alacritty/alacritty.yml
+: 1619550928:0;cd ~/Projects/dotfile
+: 1619550952:0;cd ~/.config/alacritty
+: 1619550962:0;sudo vim ../../a
+: 1619550972:0;lf
+: 1619550992:0;ls
+: 1619550994:0;ls -l
+: 1619550999:0;ls -al
+: 1619551010:0;rm ../../a
+: 1619551014:0;sudo rm ../../a
+: 1619551044:0;cargo install --path .
+: 1619551086:0;cd ..
+: 1619551088:0;ls
+: 1619551140:0;rm alacritty
+: 1619551149:0;cd ~/Projects/dotfile
+: 1619551153:0;idot create alacritty -f 
+: 1619551164:0;ls
+: 1619551313:0;cargo install --path .
+: 1619551394:0;rm -r alacritty
+: 1619551412:0;ln -s ~/Projects/dotfiles/alacritty alacritty
+: 1619551424:0;idot create alacritty -f 
+: 1619551437:0;ls -l alacritty/alacritty.yml
+: 1619551452:0;rm alacritty
+: 1619551458:0;idot create alacritty -f 
+: 1619551462:0;ls
+: 1619551481:0;cd ~/Projects/dotfiles
+: 1619551487:0;cd .config
+: 1619551488:0;ls
+: 1619551495:0;rm neofetch
+: 1619551524:0;idot create neofetch
+: 1619551529:0;neofetch
+: 1619551539:0;ls
+: 1619551548:0;rm ranger
+: 1619551555:0;rm rofi
+: 1619551559:0;idot create rofi
+: 1619551572:0;ls
+: 1619551582:0;rm gtk-2.0
+: 1619551701:0;rm gtk-3.0
+: 1619551702:0;ls
+: 1619551707:0;rm fcitx
+: 1619551712:0;ls
+: 1619551719:0;rm picom.conf
+: 1619551733:0;idot create fcitx
+: 1619551754:0;idot create fcitx -f
+: 1619551768:0;lf
+: 1619551813:0;idot create x -f
+: 1619551873:0;idot create -f flameshot
+: 1619551886:0;idot create -f maven
+: 1619551895:0;idot create -f picom
+: 1619551903:0;idot create -f tmux
+: 1619551907:0;idot create -f zsh
+: 1619551932:0;ls
+: 1619551933:0;lf
+: 1619551968:0;idot delete  zsh
+: 1619551975:0;idot create -f zsh
+: 1619551997:0;idot htop
+: 1619552000:0;idot install htop
+: 1619552009:0;idot create htop
+: 1619552014:0;ls
+: 1619552020:0;idot create htop -f

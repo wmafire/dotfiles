@@ -1,0 +1,3 @@
+links:
+  "~/.config/flameshot/flameshot.ini":
+    target: "flameshot.ini"

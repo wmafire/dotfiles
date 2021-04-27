@@ -1,0 +1,14 @@
+links:
+  "~/.xinitrc":
+    target: "xinitrc"
+  "~/.xprofile":
+    target: "xprofile"
+  "~/.Xresources":
+    target: "Xresources"
+  "~/.gtkrc-2.0":
+    target: "gtkrc-2.0"
+  "~/.config/gtk-3.0/settings.ini":
+    target: "gtk-3.0/settings.ini"
+  "~/.fonts.conf":
+    target: "fonts.conf"
+
