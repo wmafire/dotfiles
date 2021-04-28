@@ -1,1 +1,0 @@
-(provide 'major-mode/lua)
