@@ -1,0 +1,3 @@
+links:
+  "~/userChrome.css":
+    target: "userChrome.css"
