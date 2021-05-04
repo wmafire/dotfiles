@@ -9,14 +9,19 @@ fi
 if [ -d "$HOME/.cargo/bin" ] ; then
     PATH="$HOME/.cargo/bin:$PATH"
 fi
-
+# Proxy
 export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com,mx"
 export http_proxy="http://localhost:7890"
 export https_proxy=$http_proxy
-export EDITOR="emacsclient -nw"
-export QT_QPA_PLATFORMTHEME=gtk2
-export GTK_USE_PORTAL=1
 
+export EDITOR="emacsclient -nw"
+# QT Appearance
+export QT_QPA_PLATFORMTHEME=gtk2
+
+# Electron app use trash-cli as trash manager
+export ELECTRON_TRASH=trash-cli
+# Need install xdg-desktop-portal
+# export GTK_USE_PORTAL=1
 
 setxkbmap -option caps:ctrl_modifier
 xset r rate 300 30
@@ -31,11 +36,9 @@ run light-locker
 run picom
 run fcitx
 run emacs --daemon
-#run lxsession -s awesome -e awesome
 run polkit-dumb-agent
 run flameshot
 run enpass
 run nutstore
 run keepassxc
 run pa-applet
-
