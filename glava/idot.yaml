@@ -1,0 +1,5 @@
+links:
+  "~/.config/glava/rc.glsl":
+    target: "rc.glsl"
+  "~/.config/glava/bars.glsl":
+    target: "bars.glsl"
