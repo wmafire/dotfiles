@@ -18,7 +18,7 @@ cmd on-cd &{{
 on-cd
 
 
-map <enter> shell
+# map <s-1> shell
 
 # execute current file (must be executable)
 map x $$f
