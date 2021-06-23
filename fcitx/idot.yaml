@@ -3,6 +3,8 @@ links:
     target: "fcitx/conf"
   "~/.config/fcitx/skin":
     target: "fcitx/skin"
+  "~/.config/fcitx/data":
+    target: "fcitx/data"
   "~/.config/fcitx/config":
     target: "fcitx/config"
   "~/.config/fcitx/profile":
