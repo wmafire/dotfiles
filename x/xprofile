@@ -9,10 +9,11 @@ fi
 if [ -d "$HOME/.cargo/bin" ] ; then
     PATH="$HOME/.cargo/bin:$PATH"
 fi
+
 # Proxy
-export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com,mx"
-export http_proxy="http://localhost:7890"
-export https_proxy=$http_proxy
+export NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com,mx"
+export HTTP_PROXY="http://localhost:7890"
+export HTTPS_PROXY=$HTTP_PROXY
 
 export EDITOR="nvim"
 # QT Appearance
@@ -22,23 +23,3 @@ export QT_QPA_PLATFORMTHEME=gtk2
 export ELECTRON_TRASH=trash-cli
 # Need install xdg-desktop-portal
 # export GTK_USE_PORTAL=1
-
-setxkbmap -option caps:ctrl_modifier
-xset r rate 300 30
-function run {
-   if (command -v $1); then
-     $@&
-   fi
-}
-
-cd ~/.config/clash/dashboard && python -m http.server 7899 &
-run light-locker
-run picom
-run fcitx
-run emacs --daemon
-run polkit-dumb-agent
-run flameshot
-run enpass
-run nutstore
-run keepassxc
-run pa-applet

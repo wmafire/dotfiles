@@ -6,7 +6,7 @@ ZSH_THEME="meet"
 
 plugins=(cargo
     git
-    pyenv
+    #pyenv
     nvm
     sudo
     z
