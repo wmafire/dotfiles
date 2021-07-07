@@ -52,7 +52,7 @@ colors:
     white: "0xa6b3cc"
  
 
-background_opacity: 0.95
+background_opacity: 0.9
 
 mouse_bindings:
   - {mouse: Middle, action: Paste}
